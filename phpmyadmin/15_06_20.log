@@ -1,0 +1,18 @@
+[ 2015-06-20T02:24:18+08:00 ] 61.160.194.183 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+ERR: 无法加载模块:Login
+
+[ 2015-06-20T06:24:37+08:00 ] 71.6.167.142 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-06-20T14:51:37+08:00 ] 66.249.73.167 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:Robots
+

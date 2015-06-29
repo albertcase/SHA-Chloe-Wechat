@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form,input{ padding:0; margin:0; font-weight:normal; font-size:12px;}
+ul,li{ list-style:none;}
+img{ border:0;}
+input{font-family:"5FAE\8F6F\96C5\9ED1","微软雅黑","Microsoft Yahei" !important; font-size:12px; }
+a{ text-decoration:none; color:#4b4b4b;}
+a:hover,a.current{ text-decoration:none; color:#2158a8;}
+*{ outline:none;  /*-moz-user-select: none;-webkit-user-select: none; -ms-user-select: none;*/}
+.hidden{ display:none;}
+textarea{ resize:none; font-size:12px; font-family:"5FAE\8F6F\96C5\9ED1","微软雅黑","Microsoft Yahei" !important;}
+
+body{ padding:0; margin:0; font-size:12px; font-family:"5FAE\8F6F\96C5\9ED1","微软雅黑","Microsoft Yahei" !important;}
+
+.verification_body h3{ text-align:center; color:#00529b; font-size:45px; padding:90px 0 50px 0;}
+.verification_box{ width:940px; margin:0 auto; padding:0 0 130px 0; overflow:hidden; _zoom:1;}
+.verification_box dl{ width:178px; height:335px; float:left; margin:0 5px;}
+.verification_box dl dd{ cursor: pointer; background:url(../images/brandstory/verifiction_bg.png) no-repeat; width:170px; height:215px; overflow:hidden; padding:4px; position:relative;}
+.verification_box dl dd span{ background:url(../images/brandstory/verification_zoom.png) no-repeat; width:35px; height:35px; position:absolute; right:8px; bottom:8px;}
+.verification_box dl dt{ color:#00529b; font-size:14px; font-weight:bold; text-align:center; padding:8px 0 0 0;}
+.verification_box dl dt span{ font-size:12px; font-weight:normal;}
+
+#screen{ background:#000; position:absolute; width:100%; height:100%; z-index:10; top:0; left:0; opacity:0.7;}
+#screen_img_pop{ position:absolute; left:50%; z-index:100; top:10px;}
+.loading{ background:url(../images/brandstory/loading.gif) no-repeat; position:absolute; left:50%; top:50%; margin:-12px 0 0 -12px;}
+
+#screen_img_container{box-shadow: 0px 0px 20px #000; background:#fff;}
+#screen_img_container #screen_left{ background:url(../images/brandstory/verification_prev.png) no-repeat; width:76px; height:76px; position:absolute; z-index:1; margin:-38px 0 0 0; top:50%; left:-55px; display:none;}
+#screen_img_container #screen_right{ background:url(../images/brandstory/verification_next.png) no-repeat; width:76px; height:76px; position:absolute; z-index:1; margin:-38px 0 0 0; top:50%; right:-55px; display:none;}
+
+#screen_img_container #screen_close{ background:url(../images/brandstory/verification_close.png) no-repeat; width:38px; height:38px; position:absolute; right:10px; top:10px; display:none;}
+
+

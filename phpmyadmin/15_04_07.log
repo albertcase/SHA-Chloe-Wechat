@@ -1,0 +1,18 @@
+[ 2015-04-07T00:17:32+08:00 ] 91.217.90.49 /rom-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+ERR: 无法加载模块:Rom-0
+
+[ 2015-04-07T00:27:26+08:00 ] 91.217.90.49 /rom-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Rom-0
+
+[ 2015-04-07T09:52:12+08:00 ] 42.120.145.218 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:Robots
+

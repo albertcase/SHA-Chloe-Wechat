@@ -1,0 +1,12 @@
+[ 2015-03-10T02:02:55+08:00 ] 76.127.228.241 /HNAP1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:HNAP1
+
+[ 2015-03-10T13:09:26+08:00 ] 180.97.192.16 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Login
+

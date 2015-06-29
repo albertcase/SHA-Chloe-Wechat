@@ -1,0 +1,8 @@
+.DS_Store
+.vagrant
+/protected/config/main.php
+/assets/
+/upload/
+
+
+

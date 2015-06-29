@@ -1,0 +1,24 @@
+[ 2015-04-19T12:52:18+08:00 ] 219.235.1.237 /index.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-19T12:52:21+08:00 ] 219.235.1.237 /unAuthorizedAccess.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:UnAuthorizedAccess
+
+[ 2015-04-19T16:55:13+08:00 ] 120.199.49.238 /index.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-19T16:55:14+08:00 ] 120.199.49.238 /login.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Login
+

@@ -1,0 +1,18 @@
+[ 2015-04-15T10:57:03+08:00 ] 66.249.65.46 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-04-15T14:00:37+08:00 ] 91.217.90.49 /rom-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载模块:Rom-0
+
+[ 2015-04-15T17:04:56+08:00 ] 121.42.0.38 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Webscan38502863
+

@@ -1,0 +1,48 @@
+[ 2015-04-24T10:54:07+08:00 ] 27.223.74.219 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Login
+
+[ 2015-04-24T10:54:08+08:00 ] 27.223.74.219 /news.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+ERR: 无法加载模块:News
+
+[ 2015-04-24T10:54:10+08:00 ] 27.223.74.219 /login2.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Login2
+
+[ 2015-04-24T10:54:11+08:00 ] 27.223.74.219 /index!execute.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Index!execute
+
+[ 2015-04-24T10:54:13+08:00 ] 27.223.74.219 /index!OAIndex.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Index!OAIndex
+
+[ 2015-04-24T10:54:14+08:00 ] 27.223.74.219 /admin/install!license.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-04-24T10:54:15+08:00 ] 27.223.74.219 /license!getExpireDateOfDays.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:License!getExpireDateOfDays
+
+[ 2015-04-24T10:54:16+08:00 ] 27.223.74.219 /unAuthorizedAccess.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:UnAuthorizedAccess
+

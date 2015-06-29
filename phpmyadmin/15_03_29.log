@@ -1,0 +1,12 @@
+[ 2015-03-29T16:03:36+08:00 ] 66.249.79.40 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-03-29T21:37:45+08:00 ] 121.127.241.167 /web-console/ServerInfo.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+ERR: 无法加载模块:Web-console
+

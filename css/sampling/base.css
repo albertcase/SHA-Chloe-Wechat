@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* public */
+body{font-size:12px; font-family:'微软雅黑',Verdana,Tahoma,Arial,Sans-serif; margin:0 auto; padding:0; background:#fff;}
+body,form,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,div,span,input,textarea,tr,td,th,caption{padding:0; margin:0; border:0; font-family:'微软雅黑'}
+body li{list-style:none}
+body a{text-decoration:none;}
+a:link,a:visited {
+text-decoration:none; } 
+a:focus {outline:0;/*兼容火狐浏览器*/ }  
+body img {border:none; max-width: 100%;}
+br.clearfix{clear:both; font-size:0; line-height:0; height:0; border:0; margin:0px; padding:0px; font-size:0;}
+
+#wrapper{width:100%; height:auto; min-width:1200px;}
+#homePage{width:100%; height:630px; background:url(../../images/sampling/bg.jpg) no-repeat center top; min-width:1200px; position:absolute; padding-top:70px;}
+/*导航*/
+#menu{width:100%; height:66px; min-width:1200px; background:url(../../images/sampling/menu_bg.png) no-repeat center top; position:absolute; top:0; z-index:2;}
+#menu .menuCont{position:relative; width:1200px; height:66px; margin:0 auto;}
+#menu .menuCont .logo{width:166px; height:24px; position:absolute; top:14px; left:114px; background:url(../../images/sampling/similac_logo.png) no-repeat;}
+#menu .menuCont .logo a{width:166px; height:24px; display:block;}
+#menu .menuCont .topNav{width:837px; height:66px; position:absolute; top:0; right:0;}
+#menu .menuCont .topNav li{width:96px; height:66px; float:left; margin-right:1px; display:inline; font-size:14px; line-height:50px; text-align:center; color:#5e5e5e;}
+#menu .menuCont .topNav li a{width:100%; height:100%; display:block; font-size:14px; line-height:55px; text-align:center; color:#5e5e5e;}
+#menu .menuCont .topNav li a:hover,#menu .menuCont .topNav li a.current{color:#000b5b; font-size:16px; font-weight:bold; background:url(../../images/sampling/menuNav_current.png) no-repeat top center; background-size:100% 55px;}
+#menu .menuCont .topNav li.navli00{width:97px; margin-right:0px;}
+#menu .menuCont .topNav li.navli01{width:112px;}
+#menu .menuCont .topNav li.navli02{width:127px;}
+#menu .menuCont .topNav li.navli03{width:115px;}
+#menu .menuCont .topNav li a img{width:98px; height:25px; position:relative; top:15px;}
+#menu .menuCont .topNav li.loginLi{width:155px;}
+#menu .menuCont .topNav li .wlecomeMember{width:145px; height:25px; line-height:25px; font-size:14px; color:#5e5e5e; font-weight:bold; text-align:right; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding:0 5px;}
+.logout{width:155px; height:25px; line-height:25px; font-size:14px; text-align:right; color:#5e5e5e; text-decoration:underline;}
+.logout span{cursor:pointer;}
+
+#onload_cover{ display:none; width:100%; height:643px; position:absolute; left:0px; top:57px; z-index:99; background:url(../../images/sampling/cover_bg.png) repeat;}
+.closeBtn{width:20px; height:20px; background:url(../../images/sampling/button.png) no-repeat 0 0; position:absolute; top:10px; right:10px; cursor:pointer;}
+/*活动细则*/
+#popRules{display:none; width:730px; height:440px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-365px; top:150px; background-size:730px 440px;}
+#popRules .rulesCont{width:640px; height:auto; margin:0 auto; padding-top:15px; overflow:hidden;}
+#popRules .titleText{width:640px; height:45px; font-size:36px; text-align:center; color:#000b5b; line-height:45px;}
+#popRules .topline{width:570px; height:115px; text-indent:-5em; padding:10px 0 10px 70px; font-size:13px; line-height:24px;}
+#popRules .topline span{color:#000b5b; font-weight:bold;}
+#popRules .topline a{color:#000b5b; font-weight:bold; text-decoration:underline;}
+#popRules .rulesMain{width:636px; height:auto;}
+#popRules .rulesNav{width:636px; height:35px;}
+#popRules .rulesNav li{width:212px; height:35px; float:left;}
+#popRules .rulesNav li a{width:212px; height:25px; background-color:#e5e1d3; margin-top:10px; display:block; font-size:15px; line-height:25px; color:#52504e; text-align:center;}
+#popRules .rulesNav li a.current,#popRules .rulesNav li a:hover{width:212px; height:35px; background-color:#fff; margin:0px; display:block; font-size:17px; font-weight:bold; line-height:35px; color:#000b5b; text-align:center;}
+#popRules .maincont{width:636px; height:auto; background-color:#fff; overflow:hidden; line-height:22px;}
+#popRules .maincont span{color:#000b5b; font-weight:bold;}
+#popRules .maincont a{color:#000b5b; font-weight:bold; text-decoration:underline;}
+#rulePrize,#ruleWarn{display:none}
+#popRules #ruleStep li p{font-size:13px;}
+#popRules #ruleStep li p.size{font-size:15px; font-weight:bold;}
+#popRules #ruleStep li.stepli01{width:240px; height:129px; padding:25px 0 0 15px; float:left;}
+#popRules #ruleStep li.stepli02{width:350px; height:129px; padding-left:15px; margin-top:25px; float:left; background:url(../../images/sampling/popRules_step2_bg.png) no-repeat;}
+#popRules #rulePrize .prizeText{width:420px; height:160px; padding:7px 0 0 25px; float:left; font-size:13px; position:relative;}
+#popRules #rulePrize .prizeText p#prizeTips{width:200px; height:48px; background:url(../../images/sampling/button.png) no-repeat -20px 0; position:absolute; top:23px; left:190px; color:#fff; font-size:11px; line-height:18px; text-align:center; padding-top:5px; display:none;}
+#popRules #rulePrize .prizeShow{width:190px; height:167px; float:left;}
+#popRules #rulePrize .prizeShow img{width:169px; height:157px; position:relative; top:5px;}
+#popRules #ruleWarn{height:auto;}
+#popRules #ruleWarn p{text-indent:-14px; padding-left:14px; font-size:13px;}
+.bottomText{color:#959492; font-size:11px; background-color:#f8f5ef; line-height:15px; height:30px; padding-top:5px;}
+/*scrollbar*/
+#popRules #ruleWarn #scrollbar { width: 560px; height:150px; clear: both; margin:5px auto;}
+#popRules #ruleWarn #scrollbar .viewport { width: 550px; height: 150px; overflow: hidden; position: relative; }
+#popRules #ruleWarn #scrollbar .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#popRules #ruleWarn #scrollbar .scrollbar { position: relative; float: right; width: 3px; }
+#popRules #ruleWarn #scrollbar .track { background-color: #e5e1d3; height: 100%; width:3px; position: relative;}
+#popRules #ruleWarn #scrollbar .thumb { height: 20px; width: 3px; cursor: pointer; overflow: hidden; position: absolute; top: 0; background-color: #000b5b;}
+/*注册*/
+#popLogin{display:none; width:560px; height:290px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-280px; top:150px; background-size:560px 290px;}
+#popLogin .popText{width:560px; height:80px; line-height:36px; color:#000b5b; font-size:28px; padding-top:75px; text-align:center;}
+#popLogin .loginBtn{width:188px; height:51px; margin:20px auto; background:url(../../images/sampling/button.png) no-repeat 0 -53px; cursor:pointer;}
+/*分享*/
+#popShare{display:none; width:560px; height:267px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-280px; top:150px; background-size:560px 297px; padding-top:30px}
+#popShare .shareText{width:429px; height:125px; background:url(../../images/sampling/popShare_textBg.png) no-repeat; margin:0px auto; font-size:14px; line-height:24px; padding:25px 30px 0 30px;}
+#popShare .shareBtn{width:248px; height:51px; margin:20px auto; background:url(../../images/sampling/button.png) no-repeat 0 -104px; cursor:pointer;}
+/*留资料*/
+#popMsg{display:none; width:560px; height:350px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-280px; top:150px; background-size:560px 350px;}
+#popMsg .topText{width:560px; height:100px; padding-top:30px; text-align:center;}
+#popMsg .topText p.title{font-size:30px; line-height:40px; color:#000b5b;}
+#popMsg .topText p.line02{font-size:18px; line-height:30px; color:#000b5b;}
+#popMsg .topText p.line02 span{font-size:12px;}
+#popMsg .topText p.line03{font-size:12px; line-height:15px; color:#6a6a6a;}
+#popMsg .msgCont{width:415px; height:120px; margin-left:150px;}
+#popMsg .msgCont li{width:415px; height:40px; font-size:14px; line-height:30px;}
+#popMsg .msgCont li input{width:180px; height:31px; font-size:14px; line-height:30px; background:url(../../images/sampling/button.png) no-repeat -248px -33px; padding:0 5px; float:left; display:inline; margin-right:10px;}
+#popMsg .msgCont li p{position:relative; *top:-5px; width:65px; float:left;}
+#popMsg .msgCont .warnText{width:140px; font-size:12px; line-height:30px; color:#e91616; display:block;}
+#popMsg .leaveMsgBtn{width:148px; height:51px; margin:20px auto; background:url(../../images/sampling/button.png) no-repeat 0 -155px; cursor:pointer;}
+/*获奖*/
+#popGetPrize{display:none; width:606px; height:410px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-303px; top:150px; background-size:606px 410px;}
+#popGetPrize .getContent{width:520px; height:380px; margin:0 auto; padding-top:15px;}
+#popGetPrize .getContent p.normalP{font-size:18px; line-height:28px; height:28px; color:#000b5b; }
+#popGetPrize .getContent p.smallP{font-size:12px; line-height:24px; height:24px; color:#6a6a6a; }
+#popGetPrize .getContent p.title{font-size:36px; line-height:42px; height:50px; color:#000b5b; }
+#popGetPrize .topCont{width:520px; height:80px;}
+#popGetPrize .topCont .lisolid{width:80px; height:79px; border-bottom:1px solid #e5e1d3; float:left;}
+#popGetPrize .topCont .liC{width:360px; height:79px; float:left; color:#000b5b; text-align:center;}
+#popGetPrize .centerCont{width:520px; height:60px; text-align:center;}
+#popGetPrize .mainContent{width:514px; height:203px; margin:0 auto; border-bottom:1px solid #e5e1d3;}
+#popGetPrize .mainContent .mainDiv{width:250px; height:151px; float:left; background:url(../../images/sampling/button.png) no-repeat -248px -64px; margin-right:14px;}
+#popGetPrize .mainContent .mainDiv .mainTop{width:220px; height:67px; border-bottom:1px dotted #000b5b; margin:0 auto; margin-top:10px; text-align:right;}
+#popGetPrize .mainContent .mainDiv .mainTop li.lmainli{width:64px; height:50px; float:left; border-right:1px solid #9f9f9f; padding-right:5px; text-align:right;}
+#popGetPrize .mainContent .mainDiv .mainTop li.rmainli{width:150px; height:50px; float:left;}
+#popGetPrize .mainContent .mainDiv .mainTop p.bigP{font-size:22px; font-weight:bold; color:#000b5b; }
+#popGetPrize .mainContent .mainDiv .mainTop p.norP{font-size:18px; color:#000b5b;}
+#popGetPrize .mainContent .mainDiv .mainTop .hunderY{width:130px; height:53px; background:url(../../images/sampling/button.png) no-repeat -524px 0; margin-left:12px;}
+#popGetPrize .mainContent .mainDiv .mainTop .twoY{width:130px; height:53px; background:url(../../images/sampling/button.png) no-repeat -524px -53px; margin-left:12px;}
+#popGetPrize .mainContent .mainDiv .receiveBtn{width:138px; height:46px; background:url(../../images/sampling/button.png) no-repeat 0 -206px; margin:10px auto; cursor:pointer;}
+#popGetPrize .mainContent .mainDiv .receiveBtn a{width:138px; height:46px; display:block;}
+#popGetPrize .mainContent .mainDiv .tblink{width:250px; height:20px; font-size:14px; color:#000b5b; text-align:center; line-height:20px;}
+#popGetPrize .mainContent .mainDiv .copyBtn{width:101px; height:33px; margin:5px auto; background:url(../../images/sampling/button.png) no-repeat 0 -252px; cursor:pointer;}
+#popGetPrize .mainContent .divTextl{width:240px; height:40px; float:left; font-size:11px; color:#959492; text-indent:-6px; padding:10px 0 0 10px;}
+#popGetPrize .mainContent .divTextr{width:240px; height:40px; float:left; font-size:11px; color:#959492; text-indent:-6px; margin-left:14px; padding:10px 0 0 10px;}
+#popGetPrize .mainContent .divTextl a,#popGetPrize .mainContent .divTextr a{text-decoration:underline; color:#000b5b;}
+/*pop底部分享*/
+.bottomDiv{width:520px; height:40px; margin:0 auto; padding-top:5px;}
+.bottomDiv .btml{width:314px; height:30px; float:left; font-size:11px; color:#959492; padding-left:6px; line-height:30px;}
+.bottomDiv .btmShare{width:176px; height:30px; float:right; color:#000b5b; background-color:#f8d27f; padding:0 10px;}
+.bottomDiv .btmShare li.li01{width:55px; float:left; height:30px; font-size:13px; line-height:30px;}
+.bottomDiv .btmShare li.li02{width:96px; float:left; height:30px; background:url(../../images/sampling/sina_icon.png) no-repeat; cursor:pointer; padding-left:25px; background-position:0 6px; text-decoration:underline; line-height:30px;}
+
+/*未中奖*/
+#popNoPrize{display:none; width:606px; height:404px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-303px; top:150px; background-size:606px 404px;}
+#popNoPrize .noContent{width:520px; height:324px; border-bottom:1px solid #e5e1d3; margin:0 auto; padding-top:35px;}
+#popNoPrize .noContent .topcon{width:520px; height:100px; text-align:center; color:#000b5b; font-size:18px; line-height:23px;}
+#popNoPrize .noContent .title{font-size:32px; line-height:40px; height:40px;}
+#popNoPrize .noContent .times{font-size:15px; line-height:24px; height:24px; color:#6a6a6a;}
+#popNoPrize .noContent #gameTimes{font-size:20px; color:#000b5b;}
+#popNoPrize .noContent .prizeCont{width:402px; height:68px; background:url(../../images/sampling/button.png) no-repeat -248px -215px; margin:0 auto;}
+#popNoPrize .noContent .prizeCont .floatli01{float:left; width:85px; line-height:68px; font-size:18px; color:#000b5b; text-align:center; font-weight:bold;}
+#popNoPrize .noContent .prizeCont .floatli02{float:left; width:130px; height:53px; background:url(../../images/sampling/button.png) no-repeat -524px -53px; margin-top:8px;}
+#popNoPrize .noContent .prizeCont .floatli03{float:left; width:138px; height:46px; margin:12px 0 0 5px; border-left:1px dotted #000b5b; padding-left:20px;}
+#popNoPrize .noContent .prizeCont .floatli03 a{width:138px; height:46px; background:url(../../images/sampling/button.png) no-repeat 0 -206px; display:block;}
+#popNoPrize .noContent .warnText{width:320px; height:11px; line-height:15px; height:15px; padding:10px 0 0 75px; color:#959492;}
+#popNoPrize .noContent .warnText a{text-decoration:underline; color:#000b5b;}
+#popNoPrize .noContent .weicode{width:450px; height:99px; margin:15px auto; background:url(../../images/sampling/pop_wei.png) no-repeat 0 0;}
+#popNoPrize .bottomDiv{width:520px; height:40px; margin:0 auto; padding-top:5px;}
+#popNoPrize .bottomDiv .btml{width:300px; height:30px; float:left; font-size:11px; color:#959492; padding-left:6px; line-height:30px;}
+#popNoPrize .bottomDiv .btmShare{width:188px; height:30px; float:right; color:#000b5b; background-color:#f8d27f; padding:0 10px;}
+#popNoPrize .bottomDiv .btmShare li.li01{width:55px; float:left; height:30px; font-size:13px; line-height:30px;}
+#popNoPrize .bottomDiv .btmShare li.li02{width:108px; float:left; height:30px; background:url(../../images/sampling/sina_icon.png) no-repeat; cursor:pointer; padding-left:25px; background-position:0 6px; text-decoration:underline; line-height:30px;}
+/*已经玩过三次*/
+#popNoTimes{display:none; width:560px; height:290px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-280px; top:150px; background-size:560px 290px;}
+#popNoTimes .mainCont{width:560px; height:110px; line-height:45px; text-align:center; font-size:28px; color:#000b5b; padding-top:60px;}
+#popNoTimes .btmBtn{width:392px; margin:0 auto; height:51px;}
+#popNoTimes .btmBtn a.leftBtn{width:188px; height:51px; display:block; float:left; margin-right:16px; background:url(../../images/sampling/button.png) no-repeat 0 -401px; text-indent:-999em;}
+#popNoTimes .btmBtn a.rightBtn{width:188px; height:51px; display:block; float:left; background:url(../../images/sampling/button.png) no-repeat 0 -452px; text-indent:-999em;}
+
+/*首页老虎机*/
+.g_warp{ width:867px; height:; overflow:hidden; margin:0 auto;}
+.g_warp .g_title{margin:0 auto; width:627px; height:132px;}
+#activemmNum{color:#3660ff; font-weight:bold; font-size:20px;}
+.g_warp .g_machine{ width:100%; position:relative;}
+.g_warp .g_machine .p_title{ width:447px; height:35px; line-height:35px; text-align:center; position: absolute; left:175px; top:60px; font-family:"微软雅黑"; font-size:15px;}
+.g_warp .g_la{ position:absolute; left:715px; top:10px;}
+.g_warp .g_la img{ display:none;}
+.g_warp .main{position: absolute; top:44px; left:470px;}
+.g_warp .num_mask{background:url(../../images/sampling/num_mask.png) 0px 0px no-repeat;height:184px;width:582px;position:absolute;left:50%;top:0px;margin-left:-370px;z-index:9;}
+.g_warp .num_box{height:450px;width:582px;position:absolute;left:50%;top:60px;margin-left:-330px;z-index:8;overflow:hidden;text-align:center;}
+.g_warp #gameNumm01{background:url(../../images/sampling/num.png) 0 73px repeat-y;width:175px;height:322px;float:left;margin-right:18px;}
+.g_warp #gameNumm02{background:url(../../images/sampling/num.png) 0 240px repeat-y;width:175px;height:322px;float:left;margin-right:18px;}
+.g_warp #gameNumm03{background:url(../../images/sampling/num.png) 0 407px repeat-y;width:175px;height:322px;float:left;margin-right:18px;}
+#rollIcon{width:10px; height:12px; position:absolute; background:url(../../images/sampling/roll_icon.png) no-repeat; top:75px; right:51px;}
+#lightMask{width:113px; height:113px; position:absolute; background:url(../../images/sampling/light.png) no-repeat 0 0; top:0px; right:0px; z-index:1;}
+.rollText{width:87px; height:23px; position:absolute; background:url(../../images/sampling/roll_text.png) no-repeat 0 0; top:40px; right:12px; z-index:2;}
+#click_btn{width:113px; height:113px; position:absolute; top:0; left:0; z-index:10; background:none; opacity:0;}
+#click_btn a{width:100%; height:100%; display:block; background:none; opacity:0;}
+/*妈妈证言*/
+#mmzyWrapper{width:100%; height:1130px; background:url(../../images/sampling/mmzy_bg.jpg) no-repeat center top; min-width:1200px; padding-top:70px; position:absolute; background-color:#f1f0ea;}
+.mmzycontent{width:1200px; height:910px; margin:0 auto;}
+.mmzyTop{width:735px; height:117px; margin:0px auto; padding:10px 0;}
+.detailCont{width:819px; height:363px; background:url(../../images/sampling/mmzy_detail_bg.png) no-repeat; margin:0 auto;}
+.detailCont .zyDetail{width:657px; height:314px; padding:19px 0 0 83px;}
+.detailCont .zyDetail .detailTop{width:657px; height:264px;}
+.detailCont .zyDetail .detailTop .mmPic{width:264px; height:264px; float:left;}
+.detailCont .zyDetail .detailTop .mmPic img{width:264px; height:264px;}
+.detailCont .zyDetail .detailTop .detailText{width:317px; height:160px; margin:60px 0 0 49px; font-size:13px; color:#3e3e3e; line-height: 23px; float:left; overflow:auto;}
+.detailCont .zyDetail .detailBtm{width:607px; height:50px; padding-left:50px;}
+.detailCont .zyDetail .detailBtm .mmName{width:215px; height:30px; float:left; font-size:30px; line-height:30px; color:#000b5b;}
+.detailCont .zyDetail .detailBtm .btmright{width:390px; height:22px; float:left; padding-top:14px;}
+.detailCont .zyDetail .detailBtm .btmright li{float:right; width:auto; font-size:13px; color:#3e3e3e; line-height:22px; padding:0 10px;}
+.detailCont .zyDetail .detailBtm .btmright li img{position:relative; top:3px; left:-3px;}
+.detailCont .zyDetail .detailBtm .btmright li.loveli img{cursor:pointer;}
+.detailCont .tsText{width:684px; height:30px; font-size:14px; color:#3f3f3f; line-height:30px; margin:0 auto;}
+.mmlist{width:684px; height:124px; margin:0 auto;}
+.mmlist li{width:112px; height:112px; float:left; background:url(../../images/sampling/button.png) no-repeat -248px -546px; margin-top:6px; cursor:pointer;}
+.mmlist li img{width:95px; height:95px; margin:7px;}
+.mmlist li.current{width:124px; height:124px; float:left; background:url(../../images/sampling/button.png) no-repeat -360px -546px; margin:0;}
+.mmlist li.current img{width:106px; height:106px; margin:6px;}
+.contBtm{width:770px; height:234px; margin:0 auto; position:relative; margin-top:40px;}
+.contBtm .btmPro{width:470px; height:234px; position:absolute; top:0; left:0;}
+.contBtm .goActive{width:260px; height:72px; position:absolute; display:block; background:url(../../images/sampling/button.png) no-repeat -248px -473px; right:0; top:30px;}
+.contBtm .prodetail{width:260px; height:72px; position:absolute; display:block; background:url(../../images/sampling/button.png) no-repeat -248px -401px; right:0; top:110px;}
+.wraBtm{width:1200px; height:220px; margin:0 auto;}
+#mmzyWrapper .small_p{font-size:11px; color:#959492; padding-top:20px;}
+/*scrollbar*/
+#scrollbar1 { width: 317px; height:150px; clear: both; margin:0px auto;}
+#scrollbar1 .viewport { width:300px; height: 140px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 3px; }
+#scrollbar1 .track { background-color: #e5e1d3; height: 100%; width:3px; position: relative;}
+#scrollbar1 .thumb { height: 20px; width: 3px; cursor: pointer; overflow: hidden; position: absolute; top: 0; background-color: #000b5b;}
+
+
+
+/*中奖名单*/
+#popPrize{display:none; width:660px; height:420px; position:absolute; z-index:100; background:url(../../images/sampling/pop_bg.png); left:50%; margin-left:-330px; top:150px; background-size:660px 420px;}
+.div-top{width:660px; height:45px; margin:10px 0; text-align:center; font-size:36px; line-height:45px; color:#000b5b;}
+.div-search{width:632px; height:35px;}
+.ul-search{width:272px; height:35px; float:left; margin-left:40px; display:inline;}
+#search_input{width:188px; height:34px; line-height:34px; font-size:16px; color:#000b5b; border-top:1px solid #cacaca; border-left:1px solid #cacaca; float:left; padding:0 10px;}
+.ul-search img{width:50px; height:32px; float:left; cursor:pointer;}
+.ul-date{width:270px; height:34px; float:left; margin-left:40px; display:inline;}
+.ul-date .select{width:272px; height:35px; position:relative;}
+.ul-date .select dt{width:262px; height:35px; position:absolute; top:0; left:0; background:url(../../images/sampling/select_btn.jpg) no-repeat; cursor:pointer; font-size:16px; line-height:35px; color:#000b5b; padding-left:10px;}
+.ul-date .select dd{width:262px; height:150px; position:absolute; top:35px; left:0; background-color:#fff; z-index:2; cursor:pointer; font-size:16px; line-height:35px; color:#000b5b; padding-left:10px; overflow:auto;}
+.ul-date .select dd a{width:242px; height:35px; color:#000b5b; display:block;}
+.list_top{width:632px; height:36px; padding:15px 0;}
+.list_top ul{width:272px; height:36px; float:left; margin-left:40px; display:inline; background:url(../../images/sampling/list_top_bg.png) no-repeat; line-height:36px; color:#000b5b; font-weight:bold; font-size:18px;}
+.list_top ul li.li_name{width:122px; height:36px; text-align:center; float:left;}
+.list_top ul li.li_phone{width:150px; height:36px; text-align:center; float:left;}
+.list_cont{width:632px; height:226px; overflow:hidden;}
+.list_cont ul{width:272px; height:36px; float:left; margin:5px 0 0  40px; display:inline; line-height:36px; color:#666666; font-size:16px; background-color:#e5e1d3}
+.list_cont ul li.li_name{width:122px; height:36px; text-align:center; float:left;}
+.list_cont ul li.li_phone{width:150px; height:36px; text-align:center; float:left;}
+.list_cont .wrong_p{width:584px; height:20px; padding:80px 0 0 40px; font-size:18px; text-align:center;}
+
+
+/*scrollbar*/
+#scrollbar2 { width: 632px; height:226px; clear: both; margin:0px auto;}
+#scrollbar2 .viewport { width:627px; height: 226px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar2 .scrollbar { position: relative; float: right; width: 3px; }
+#scrollbar2 .track { background-color: #e5e1d3; height: 100%; width:3px; position: relative;}
+#scrollbar2 .thumb { height: 20px; width: 3px; cursor: pointer; overflow: hidden; position: absolute; top: 0; background-color: #000b5b;}

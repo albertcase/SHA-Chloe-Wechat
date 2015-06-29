@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* public */
+body{ font-family:'微软雅黑',Verdana,Tahoma,Arial,Sans-serif; margin:0 auto; padding:0; background:#f2f2f2;}
+body,form,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,div,span,input,textarea,tr,td,th,caption{
+	padding:0;
+	margin:0;
+	border:0;
+	font-family: "微软雅黑", Verdana, Tahoma, Arial, Sans-serif;
+}
+body li{list-style:none}
+body a{text-decoration:none;}
+a:link,a:visited {
+text-decoration:none; } 
+a:focus {outline:0;/*兼容火狐浏览器*/ }  
+body img {border:none; max-width: 100%;}
+br.clearfix{clear:both; font-size:0; line-height:0; height:0; border:0; margin:0px; padding:0px; font-size:0;}
+/**/
+#fl_menu {
+	position:absolute;
+	right:10px;
+	top:90px;
+	width:142px;
+	height:340px;
+	z-index:9999;
+	border:1px solid #a6a6a6;
+	background:#484848;
+}
+#fl_menu ul li{width:142px; height:34px; background:url(../images/products/btna_03.png) no-repeat;}
+#fl_menu ul li a{ display:block; width:142px; height:28px;color:#fff; padding-left:10px; padding-top:6px;}
+#fl_menu ul li a:hover{
+	color:#333;
+	font-weight:bold;
+	background:url(../images/products/btnc_03.png) no-repeat;
+	
+}
+.container{ width:939px; margin:0 auto;}
+.two_body{
+	padding:0 0 62px 0;
+	height:auto;
+	background:url(../images/products/two_07.jpg) top repeat-x;
+	position: relative;
+}
+.two_head{width:100%; background:url(../images/products/two_03.jpg) center no-repeat; height:373px;}
+.two_box1{ height:1728px; margin:0 0 57px 0; background:url(../images/products/two_08.jpg) no-repeat center;}
+.two_box1 .container ul{padding:151px 36px 0 77px;}
+.two_box1 .container ul li{ height:387px; width:413px; float:left;}
+.two_box2{ height:2773px; margin:0 0 45px 0;}
+.two_box3{ height:624px; margin:0 0 49 0; background: url(../images/products/two_3_13.jpg) center no-repeat;}
+.two_box4{ height:625px; margin:0 0 0 0; background:url(../images/products/two_4_15.jpg) center no-repeat;}
+.two_box5{ height:759px; margin:0 0 0 0; background:url(../images/products/two_5_02_1.jpg) center no-repeat;}
+.two_box6{ height:347px; margin:0 0 72px 0; background: url(../images/products/two_6_17.jpg) center no-repeat;}
+.two_box7{ height:7078px; margin:0 0 64px 0;}
+
+.two_box8{ height:1430px; margin:0 0 56px 0;}
+.two_box8 .container .two_box8_mian{width:857px; height:1308px; margin:0 15px 0 17px; padding:11px 23px 0 24px; background:#f9f9f9; border-left:solid 1px #e2e2e2;border-right:solid 1px #e2e2e2;border-bottom:solid 1px #e2e2e2;}
+.two_box8 .container .two_box8_mian ul li{float:left; width:424px; height:435px;}
+.two_box8 .container .two_box8_mian .two_box8_video{ padding-top:12px; font-size:14px; color:#8b8b8b; height:143px;}
+.two_box8 .container .two_box8_mian .two_box8_video h1{font-weight:bold; color:#666; display:block; float:left; width:148px; height:143px; font-size:18px;}
+.two_box8 .container .two_box8_mian .two_box8_video p{padding-right:18px;}
+
+
+.two_box9{ height:1034px; margin:0 0 58px 0; background:url(../images/products/two_9_01.jpg) center no-repeat;}
+.two_box10{
+	height:484px;
+}
+.two_box10 .container .two_box10_mian{
+	width:874px;
+	height:380px;
+	margin:0 15px 0 17px;
+	padding:0px 15px 0 15px;
+	background:#f9f9f9;
+	border-left:solid 1px #e2e2e2;
+	border-right:solid 1px #e2e2e2;
+	border-bottom:solid 1px #e2e2e2;
+}
+.two_box10 .container .two_box10_mian ul li{
+	width:90%;
+	border-bottom:solid 1px #e2e2e2;
+	padding:21px 0 21px 75px;
+}
+.two_box10 .container .two_box10_mian .q h2{font-size:24px; color:#0e6cc2; font-weight:normal;}
+.two_box10 .container .two_box10_mian .a{margin-top:18px;}
+.two_box10 .container .two_box10_mian .a p{font-size:13px; color:#333; line-height:28px;}
+
+.box_nav { margin-left: 50%; left:-312px; width:255px; height: 82px; position: absolute; top:6870px; }
+.box_nav li { width:51px; height: 41px; float: left;}
+.box_nav li dl { width:30px; height: 30px; cursor: pointer;}
+
+#videoPop { display: none; width:  1000px; height: 600px; position: absolute; left:0px; top:0px; z-index: 1111;}
+#videoPop .closeBtn { cursor: pointer; width: 38px; height: 38px; background:url(../images/verification_close.png) no-repeat; position: absolute; right: 30px; top:30px;}
+#videoCont { width:985px; height: 600px;}
+
+

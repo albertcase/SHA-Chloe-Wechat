@@ -1,0 +1,12 @@
+[ 2015-03-09T02:07:58+08:00 ] 68.71.143.188 /login.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-09T21:57:04+08:00 ] 74.208.146.150 /vtigercrm/test/upload/vtigercrm.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+ERR: 无法加载模块:Vtigercrm
+

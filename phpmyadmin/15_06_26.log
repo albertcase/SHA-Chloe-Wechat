@@ -1,0 +1,12 @@
+[ 2015-06-26T07:40:52+08:00 ] 66.249.73.159 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-06-26T11:03:44+08:00 ] 104.243.24.211 /muieblackcat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Muieblackcat
+

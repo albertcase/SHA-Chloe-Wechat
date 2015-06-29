@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+/* public */
+body{font-size:12px; font-family:'微软雅黑',Verdana,Tahoma,Arial,Sans-serif; margin:0 auto; padding:0; background-color:#ebeaeb; color:#000;}
+body,form,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,div,span,input,textarea,tr,td,th,caption{padding:0; margin:0; border:0;}
+body li{list-style:none}
+body a{text-decoration:none;}
+a:link,a:visited {
+text-decoration:none; } 
+a:focus {outline:0;/*兼容火狐浏览器*/ }  
+body img {border:none; max-width: 100%;}
+br.clearfix{clear:both; font-size:0; line-height:0; height:0; border:0; margin:0px; padding:0px; font-size:0;}
+
+/*查询*/
+#chaWrapper{width:320px; height:auto; overflow:hidden; margin:0 auto;}
+#chaWrapper .chacont01{width:320px; height:129px; background:url(../images/weichat/cha_content_01.jpg) no-repeat; background-size:320px 129px;}
+#chaWrapper .chacont02{width:320px; height:240.5px; background:url(../images/weichat/cha_content_02.jpg) no-repeat; background-size:320px 240.5px;}
+#chaWrapper .chacont03{width:320px; height:421px; background:url(../images/weichat/cha_content_03.jpg) no-repeat; background-size:320px 421px;}
+#chaWrapper .chacont04{width:320px; height:469px; background:url(../images/weichat/cha_content_04.jpg) no-repeat; background-size:320px 469px;}
+#chaWrapper .chacont05{width:320px; height:321.5px; background:url(../images/weichat/cha_content_05.jpg) no-repeat; background-size:320px 321.5px;;}
+#chaWrapper .chacont06{width:320px; height:450px; background:url(../images/weichat/cha_content_06.jpg) no-repeat; background-size:320px 450px;}
+#chaWrapper .chacont07{width:320px; height:360px; background:url(../images/weichat/cha_content_07.jpg) no-repeat; background-size:320px 360px;}
+#chaWrapper .chacont08{width:320px; height:453px; background:url(../images/weichat/cha_content_08.jpg) no-repeat; background-size:320px 453px;}
+#chaWrapper .chacont09{width:320px; height:399.5px; background:url(../images/weichat/cha_content_09.jpg) no-repeat; background-size:320px 399.5px;}
+#chaWrapper .chacont10{width:320px; height:204.5px; background:url(../images/weichat/cha_content_10.jpg) no-repeat; background-size:320px 204.5px;}
+#chaWrapper .chacont02 ul{width:320px; height:96px; padding-top:126px; text-align:center;}
+#chaWrapper .chacont02 ul li{width:285px; color:#fff; font-size:15px; height:auto; line-height:24px; margin:0 auto;}
+#chaWrapper .chacont02 ul li.chaCont{font-size:18px; height:auto; line-height:20px; color:#ffc232; font-weight:bold;}
+#chaWrapper .chacont04 ul{width:227px; height:72px; padding:80px 0 0 93px;}
+#chaWrapper .chacont04 ul li{width:227px; height:24px; line-height:24px; font-size:15px; color:#fff;}
+#chaWrapper .chacont06 li{width:227px; height:24px; line-height:24px; font-size:15px; color:#fff; padding:70px 0 0 93px;}
+#chaWrapper .chacont07 li{width:227px; height:24px; line-height:24px; font-size:15px; color:#fff; padding:40px 0 0 93px;}
+#chaWrapper .chacont08 ul{width:227px; height:96px; padding:38px 0 0 93px;}
+#chaWrapper .chacont08 ul li{width:227px; height:24px; line-height:24px; font-size:15px; color:#fff;}
+#chaWrapper .chacont08 ul li span{font-size:9px;}
+
+/*了解similac*/
+#knowWrapper{width:100%; height:auto; overflow:hidden; margin:0 auto; background-color:#e3e4e4;}
+#knowWrapper img{width:100%; height:auto;}
+.knowCont01,.knowCont02,.knowCont03,.knowCont04,.knowCont05,.knowCont06,.knowCont07{width:100%; height:auto; position:relative;}
+.knowCont01 p.title{width:90%; height:auto; line-height:58px; font-size:44px; color:#152a57; font-weight:bold; position:absolute; top:68%; left:6%;}
+.knowCont01 p.subTitle{width:90%; height:auto; position:absolute; top:78%; left:6%; line-height:30px; font-size:24px; color:#152a57;}
+.knowCont02 p.partTop{width:100%; height:auto; position:absolute; top:2.5%; left:0; font-size:32px; line-height:40px; text-align:center; font-weight:bold; color:#fff;}
+.knowCont02 p.part01{font-size:20px; line-height:28px; width:39%; height:13%; position:absolute; top:24.8%; left:31%; color:#666666;}
+.knowCont02 p.part02{font-size:20px; line-height:28px; width:39%; height:12.5%; position:absolute; top:46%; left:7.5%; color:#666666;}
+.knowCont02 p.part03{font-size:20px; line-height:28px; width:39%; height:9%; position:absolute; top:49%; left:55%; color:#666666;}
+.knowCont02 p.part04{font-size:20px; line-height:28px; width:96%; height:auto; position:absolute; top:64%; left:4%; color:#666666;}
+.knowCont02 p.part05{font-size:24px; line-height:33px; width:92%; height:auto; position:absolute; top:81%; left:4%; color:#666666;}
+.knowCont02 p.part04 span,.knowCont02 p.part05 span{color:#f6ad3a;}
+.knowCont02 span{color:#fff;}
+.knowCont03 p.partTop{width:100%; height:auto; position:absolute; top:2.5%; left:0; font-size:32px; line-height:40px; text-align:center; font-weight:bold; color:#fff;}
+.knowCont03 .step1{width:92%; height:auto; position:absolute; top:22.9%; left:6%;}
+.knowCont03 .step2{width:92%; height:auto; position:absolute; top:33.9%; left:6%;}
+.knowCont03 .step3{width:92%; height:auto; position:absolute; top:44.9%; left:6%;}
+.knowCont03 .step4{width:92%; height:auto; position:absolute; top:53.9%; left:6%;}
+.knowCont03 .stepTop{font-size:24px; line-height:40px; color:#ffb60f; font-weight:bold;}
+.knowCont03 .stepCon{font-size:24px; line-height:26px; color:#666666;}
+.knowCont04 p.partTop{width:100%; height:auto; position:absolute; top:0; left:0; font-size:32px; line-height:96px; text-align:center; font-weight:bold; color:#fff;}
+#knowWrapper .bottomp{font-size:26px; line-height:30px; width:92%; margin:0 auto;}
+/*西尔斯大连线细则*/
+#rulesWrapper{width:320px; height:auto; margin:0px auto; padding:10px 0; overflow:hidden; background-color:#fff}
+#rulesWrapper .ruleLine01{width:290px; height:30px; font-size:18px; line-height:30px; margin:0px auto;}
+#rulesWrapper .ruleLine02{width:290px; height:20px; font-size:15px; margin:0px auto;}
+#rulesWrapper .ruleLine02 a{color:#006ee2; text-decoration:underline; margin-left:10px;}
+#rulesWrapper .xier{width:290px; height:163.5px; margin:10px auto;}
+#rulesWrapper .ruleCont{width:290px; height:auto; font-size:15px; line-height:20px; margin:0px auto;}
+#rulesWrapper li.brli{width:290px; height:30px; margin:0px auto;}
+#rulesWrapper li.brli01{width:290px; height:10px; margin:0px auto;}
+#rulesWrapper li.prizeLi{text-indent:-1.5em; padding-left:22px; width:268px;}
+#rulesWrapper .chatbottom{width:320px; height:213px; margin:10px auto;}
+
+/*留资料*/
+#infoWrapper{width:320px; height:350px; overflow:hidden; margin:0 auto; position:relative;}
+#infoWrapper .logo{width:141px; height:43px; position:absolute; top:20px; left:10px;}
+#infoWrapper #leveinfo{display:block; position:absolute; top:0; left:0; width:320px; height:260px; padding-top:90px;}
+#infoWrapper #leveinfo .infoTop{width:320px; height:40px; text-align:center; font-size:14px;}
+#infoWrapper #leveinfo .infoTop strong{font-size:15px;}
+#infoWrapper #leveinfo .incont{width:280px; height:114px; background:url(../images/weichat/info_main_bg.png) no-repeat; background-size:280px 104.5px; position:absolute; top:140px; left:24px;}
+#infoWrapper #leveinfo .incont ul{width:280px; height:45px; margin-bottom:12px;}
+#infoWrapper #leveinfo .incont ul li{width:73px; height:45px; line-height:45px; float:left; font-size:15px; color:#fff; text-align:center;}
+#infoWrapper #leveinfo .incont ul input{width:200px; height:45px; float:left; font-size:15px; padding:0 3px; font-family:"微软雅黑"; color:#a0a0a0;}
+#infoWrapper #leveinfo .msgsubmit{width:130px; height:47px; background:url(../images/weichat/submit_button.png) no-repeat; background-size:130px 47px; bottom:20px; position:absolute; left:95px;}
+
+#infoWrapper #infoSucceed{display:none; position:absolute; top:0; left:0; width:320px; height:230px; padding-top:120px; text-align:center; font-size:13px; line-height:25px;}
+#infoWrapper #infoSucceed strong{font-size:17px;}
+#infoWrapper #infoSucceed img{width:198px; height:63px; margin:10px auto;}
+/*提交问题*/
+#queWrapper{width:320px; height:auto; overflow:hidden; margin:0 auto; position:relative; background-color:#fff}
+#queWrapper .queCont01{width:320px; height:164.5px; background:url(../images/weichat/que_top.jpg) no-repeat; background-size:320px 164.5px;}
+#queWrapper #leaveque{ width:320px; height:auto; padding-bottom:20px;}
+#queWrapper #leaveque .queCont02{width:320px; height:254px; background:url(../images/weichat/que_leave.jpg) no-repeat; background-size:320px 254px;}
+#queWrapper #leaveque .queCont02 textarea{width:250px; height:83px; margin:102px 0 0 37px; overflow:hidden; font-size:15px; font-family:"微软雅黑";}
+#queWrapper #leaveque #queSubmit{width:130px; height:47px; background:url(../images/weichat/submit_button.png) no-repeat; background-size:130px 47px; margin:10px auto;}
+#queWrapper #leaveque .queCont03 {width:260px; height:auto; margin:0px auto; font-size:15px; line-height:22px; color:#626262; text-indent:-1.2em; padding-left:20px; margin-top:10px;}
+#queWrapper #leaveque .queCont03 .brLi{width:260px; height:10px;}
+#queWrapper #leaveque .queCont04{width:260px; height:auto; font-size:15px; line-height:22px; color:#626262; padding-left:27px;}
+#queWrapper #leaveque .queCont03 strong{font-size:18px;}
+/*问题提交成功*/
+#queSucceed{display:none;width:320px; height:294.5px; background:url(../images/weichat/que_succeed.jpg?v=3) no-repeat; background-size:320px 294.5px; position:relative;}
+#queSucceed li{width:172px; height:62px; top:135px; left:83px; position:absolute;}
+
+
+/*每周挑选妈妈问题*/
+#chooseWrapper{width:320px; height:auto; overflow:hidden; margin:0 auto; position:relative; background-color:#fff;}
+#chooseWrapper .chooseTop{width:320px; height:151.5px; background:url(../images/weichat/choose_top.jpg) no-repeat; background-size:320px 151.5px;}
+#chooseWrapper .contTop{width:320px; height:58px; background:url(../images/weichat/choose_cont_top.jpg) no-repeat; background-size:320px 58px; position:relative;}
+#chooseWrapper .contTop #otherQue{width:100px; height:34px; position:absolute; top:10px; left:195px; text-indent:-999em;}
+#chooseWrapper .contBottom{width:320px; height:162px; background:url(../images/weichat/choose_cont_bottom.jpg) no-repeat; background-size:320px 162px; position:relative;}
+#chooseWrapper .contBottom #askque{width:188px; height:51px; position:absolute; top:2px; left:66px; text-indent:-999em;}
+#chooseWrapper .contBottom #inviteMa{width:188px; height:53px; position:absolute; top:60px; left:66px; text-indent:-999em;}
+#chooseWrapper .contMain{width:320px; height:auto; background:url(../images/weichat/choose_cont.jpg) repeat-y; background-size:320px 1px;}
+#chooseWrapper .contMain .mamaQue{width:265px; height:auto; margin:0px auto; padding:20px 0 10px 0;}
+#chooseWrapper .contMain .answer{width:265px; height:auto; margin:0px auto; padding:10px 0 20px 0;}
+#chooseWrapper .contMain .mamaQue .queCont{width:206px; height:auto; float:left; min-height:45px;}
+#chooseWrapper .contMain .mamaQue .queCont .mamaTop{width:206px; height:17px; background:url(../images/weichat/mama_cont_top.png) no-repeat; background-size:206px 17px;}
+#chooseWrapper .contMain .mamaQue .queCont .mamaCont{width:197px; height:auto; background:url(../images/weichat/mama_cont.png) repeat-y; background-size:200px auto; font-size:13px; line-height:20px; padding:0 0 10px 3px;}
+#chooseWrapper .contMain .mamaQue .queCont .mamaBtm{width:200px; height:4px; background:url(../images/weichat/mama_cont_bottom.png) repeat-y; background-size:200px 4px;}
+#chooseWrapper .contMain .mamaQue .mamaPic{width:47px; height:47px; float:left; margin-left:6px;}
+#chooseWrapper .contMain .answer .answerCont{width:206px; height:auto; float:left; margin-left:6px;}
+.answerTop{width:206px; height:16.5px; background:url(../images/weichat/answer_top.png) no-repeat; background-size:206px 16.5px;}
+.answerContent{width:193px; height:auto; background:url(../images/weichat/answer_cont.png) repeat-y; background-size:200px auto; font-size:13px; line-height:20px; padding:0 0 12px 7px; margin-left:6px;}
+.answerBtm{width:200px; height:4px; background:url(../images/weichat/answer_bottom.png) no-repeat; background-size:200px 4px; margin-left:6px;}
+#chooseWrapper .contMain .answer .xierPic{width:47px; height:47px; float:left;}
+
+/*品牌传奇*/
+#legend{width:320px; height:auto; margin:0 auto;}
+#legend img{width:320px; border:0; display:block;}
+
+/*全程鉴正系统*/
+#jzWrapper{width:320px; height:auto; margin:0px auto; padding:0px 0; overflow:hidden; background-color:#fff}
+#jzWrapper .jzLine01{width:290px; height:30px; font-size:17px; line-height:30px; margin:0px auto;}
+#jzWrapper .jzLine02{width:290px; height:20px; font-size:15px; margin:0px auto;}
+#jzWrapper .jzLine02 a{color:#006ee2; text-decoration:underline; margin-left:10px;}
+#jzWrapper .jzpic{width:290px; height:162px; margin:10px auto;}
+#jzWrapper .jzCont{width:290px; height:auto; font-size:15px; line-height:20px; margin:0px auto;}
+#jzWrapper .brli{width:290px; height:30px; margin:0px auto;}
+#jzWrapper .chatbottom{width:320px; height:213px; margin:10px auto;}
+
+/*了解西尔斯*/
+#knowxierWrapper{width:320px; height:auto; margin:0px auto; padding:10px 0; overflow:hidden; background-color:#fff}
+#knowxierWrapper .ruleLine01{width:290px; height:50px; font-size:18px; line-height:23px; margin:0px auto;}
+#knowxierWrapper .ruleLine02{width:290px; height:20px; font-size:12px; margin:0px auto;}
+#knowxierWrapper .ruleLine02 a{color:#006ee2; text-decoration:underline; margin-left:10px;}
+#knowxierWrapper .xier01{width:290px; height:164.5px; margin:10px auto;}
+#knowxierWrapper .ruleCont{width:290px; height:auto; font-size:15px; line-height:20px; margin:0px auto;}
+#knowxierWrapper .brli{width:290px; height:20px; margin:0px auto;}
+#knowxierWrapper .titleLi{font-size:16px; font-weight:bold;}
+#knowxierWrapper .chatbottom{width:320px; height:213px; margin:10px auto;}
+
+/*西尔斯理论*/
+#theoryWrapper{width:320px; height:auto; margin:0px auto; padding:10px 0; overflow:hidden; background-color:#fff}
+#theoryWrapper .ruleLine01{width:290px; height:30px; font-size:18px; line-height:30px; margin:0px auto;}
+#theoryWrapper .ruleLine02{width:290px; height:20px; font-size:12px; margin:0px auto;}
+#theoryWrapper .ruleLine02 a{color:#006ee2; text-decoration:underline; margin-left:10px;}
+#theoryWrapper .xier01{width:290px; height:164.5px; margin:10px auto;}
+#theoryWrapper .ruleCont{width:290px; height:auto; font-size:15px; line-height:20px; margin:0px auto;}
+#theoryWrapper .brli{width:290px; height:20px; margin:0px auto;}
+#theoryWrapper .titleLi{font-size:16px; font-weight:bold;}
+#theoryWrapper .chatbottom{width:320px; height:213px; margin:10px auto;}
+
+
+/*超市*/
+#marketWrapper{width:320px; height:auto; margin:0px auto; padding:0; overflow:hidden; background-color:#fff;}
+#marketWrapper img{display:block; border:0; width:320px;}
+
+#onload_cover{display:none; width:100%; height:100%; background-color:#000; opacity:0.5; z-index:999; position:absolute; top:0; left:0;}
+#weishare{display:none; width:268px; height:73px; position:absolute; z-index:10000; top:0; right:0; background:url(../images/weichat/weiShare_warn.png) no-repeat; background-size:268px 73px;}
+
+/*历史消息*/
+#history{width:100%; height:auto;}
+#history .historyCell{width:84%; height:auto; margin:10px auto; border:1px solid #cacbcb; padding:10px; background-color:#fff;}
+#history #hisTime{width:84%; height:20px; font-size:14px; line-height:15px; color:#7c7c7c; margin:0 auto;}
+#history #hisTitle{width:84%; height:auto; font-size:17px; line-height:20px; margin:0 auto;}
+#history .hisPic{width:84%; height:auto; margin:10px auto;}
+#history #hisCont{width:84%; height:auto; font-size:13px; line-height:20px; color:#7c7c7c; margin:0 auto;}
+#history .bottomDiv{width:84%; height:35px; border-top:1px solid #cacbcb; margin:0 auto; margin-top:10px; font-size:14px; line-height:35px; background:url(../images/weichat/bottom_icon.png) no-repeat right; background-size:6px 9px;}
+
+/*中奖名单*/
+#prizeWrapper{width:320px; height:460px; margin:0 auto;}
+#prizeWrapper img{max-width:100%; height:auto; display:block; border:0;}
+
+#addhotWrapper{width:320px; height:642px; margin:0 auto;}
+#addhotWrapper .addhot01{width:320px; height:151px; background:url(../images/weichat/addhot_01.jpg) no-repeat; background-size:100% 100%;}
+#addhotWrapper .addhot02{width:320px; height:223px; background:url(../images/weichat/addhot_02.jpg) no-repeat; background-size:100% 100%;}
+#addhotWrapper .addhot03{width:320px; height:268.5px; background:url(../images/weichat/addhot_03.jpg) no-repeat; background-size:100% 100%;}
+#addhotWrapper .addhot03 p{width:300px; height:30px; padding:220px 0 0 20px; font-size:11px; color:#2f2f2f; line-height:15px;}
+#addhotWrapper .addhot03 p a{font-weight:bold; color:#2f2f2f; text-decoration:underline;}
+
+/*防暑妙招*/
+#summer{width:320px; height:auto; margin:0 auto;}
+#summer .summer01{width:320px; height:111px; background:url(../images/weichat/summer_icon_01.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer02{width:320px; height:126.5px; background:url(../images/weichat/summer_icon_02.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer03{width:320px; height:64.5px; background:url(../images/weichat/summer_icon_03.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer04{width:320px; height:79px; background:url(../images/weichat/summer_icon_04.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer05{width:320px; height:76px; background:url(../images/weichat/summer_icon_05.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer06{width:320px; height:90.5px; background:url(../images/weichat/summer_icon_06.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer07{width:320px; height:134.5px; background:url(../images/weichat/summer_icon_07.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer08{width:320px; height:135px; background:url(../images/weichat/summer_icon_08.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer09{width:320px; height:74px; background:url(../images/weichat/summer_icon_09.jpg) no-repeat; background-size:100% 100%; position:relative;}
+#summer .summer09 a{width:125px; height:30px; position:absolute; top:28px; left:100px;}
+
+/*天猫聚划算周年促销*/
+#tmallWrapper{width:300px; height:auto; margin:0 auto; padding-bottom:10px; font-size:16px;}
+#tmallWrapper p{width:100%; line-height:20px; padding-top:20px;}
+#tmallWrapper p.timeP{font-size:10px; color:#666666; padding:0;}
+#tmallWrapper img{margin-top:15px;}
+#tmallWrapper .titleP{font-size:18px; font-weight:bold;}
+#tmallWrapper .bgColor{background-color:#ffc000;}
+#tmallWrapper .fontColor{color:#0070d5;}
