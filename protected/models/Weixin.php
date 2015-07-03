@@ -37,17 +37,14 @@ class Weixin{
                 $msgType = $postObj->MsgType;
                 $time = time();
 				if($msgType=='text'){
-					return $this->sendService($fromUsername, $toUsername);
+					//return $this->sendService($fromUsername, $toUsername);
                 	$this->systemLog($postStr,$fromUsername,$msgType);
-                	if(is_numeric($keyword)){
-                		return $this->sendMsgForNumber($fromUsername, $toUsername, $time, "text", $keyword);
-                	}
                 	$sql = "SELECT * FROM same_wmenu_event WHERE keyword=:keyword ORDER BY id DESC";
                 	$command = $this->_db->createCommand($sql);
                 	$command->bindParam(':keyword',$keyword,PDO::PARAM_STR);
                 	$rs = $command->select()->queryAll();
                 	if(!$rs){		    	
-			        	$sql="SELECT * FROM `same_wmenu_event` WHERE instr( :keyword, keyword ) >0 AND mohu=1";
+			        	$sql="SELECT * FROM `same_wmenu_event` WHERE instr( :keyword, keyword ) >0 and mohu=1";
                 		$command = $this->_db->createCommand($sql);
                 		$command->bindParam(':keyword',$keyword,PDO::PARAM_STR);
                 		$rsLike=$command->select()->queryAll();
@@ -134,7 +131,30 @@ class Weixin{
 					}
 				}else if($msgType=='location'){
 					$this->systemLog($postStr,$fromUsername,$msgType);
-					return;
+					//LBS
+					$x = $postObj->Location_X;
+					$y = $postObj->Location_Y;
+
+					$baidu = file_get_contents("http://api.map.baidu.com/geoconv/v1/?coords={$y},{$x}&from=3&to=5&ak=Z5FOXZbjH3AEIukiiRTtD7Xy");
+					$baidu = json_decode($baidu, true);
+					$lat = $baidu['result'][0]['x'];
+					$lng = $baidu['result'][0]['y'];
+					$squares = $this->returnSquarePoint($lng,$lat,5000);
+
+
+
+					$info_sql = "select * from `same_store` where lat<>0 and lat>{$squares['right-bottom']['lat']} and lat<{$squares['left-top']['lat']} and lng<{$squares['left-top']['lng']} and lng>{$squares['right-bottom']['lng']} ";
+					$rs = Yii::app()->db->createCommand($info_sql)->queryAll();
+					if(!$rs){
+						return $this->sendMsgForText($fromUsername, $toUsername, $time, "text", '很抱歉，您的附近没有门店');
+					}
+					$data = array();
+
+            		for($i=0;$i<count($rs);$i++){
+            			$meters = "(距离约" . $this->getDistance($lat,$lng,$rs[$i]['lat'],$rs[$i]['lng'])."米)";
+            			$data[] = array('title'=>$rs[$i]['name'].$meters,'description'=>$rs[$i]['name'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/store/?id='.$rs[$i]['id']); 
+            		}
+            		return $this->sendMsgForNews($fromUsername, $toUsername, $time, $data);
 				}else if($msgType=='image'){
 					$this->systemLog($postStr,$fromUsername,$msgType);
 					return;
@@ -304,14 +324,11 @@ class Weixin{
 
 	public function sendService($fromUsername, $toUsername){
 		$textTpl = "<xml>
-     <ToUserName><![CDATA[%s]]></ToUserName>
-     <FromUserName><![CDATA[%s]]></FromUserName>
-     <CreateTime>%s</CreateTime>
-     <MsgType><![CDATA[transfer_customer_service]]></MsgType>
-     <TransInfo>
-         <KfAccount><![CDATA[demon@samesamechina]]></KfAccount>
-     </TransInfo>
- </xml>";
+					     <ToUserName><![CDATA[%s]]></ToUserName>
+					     <FromUserName><![CDATA[%s]]></FromUserName>
+					     <CreateTime>%s</CreateTime>
+					     <MsgType><![CDATA[transfer_customer_service]]></MsgType>
+					</xml>";
 	    return sprintf($textTpl, $fromUsername, $toUsername, time());
 	}
 
@@ -386,4 +403,36 @@ class Weixin{
 
 		return;
 	}
+
+	//获取周围坐标
+   public function returnSquarePoint($lng, $lat,$distance = 0.5){
+         $earthRadius = 6378138;
+        $dlng =  2 * asin(sin($distance / (2 * $earthRadius)) / cos(deg2rad($lat)));
+        $dlng = rad2deg($dlng);
+        $dlat = $distance/$earthRadius;
+        $dlat = rad2deg($dlat);
+        return array(
+                       'left-top'=>array('lat'=>$lat + $dlat,'lng'=>$lng-$dlng),
+                       'right-top'=>array('lat'=>$lat + $dlat, 'lng'=>$lng + $dlng),
+                       'left-bottom'=>array('lat'=>$lat - $dlat, 'lng'=>$lng - $dlng),
+                       'right-bottom'=>array('lat'=>$lat - $dlat, 'lng'=>$lng + $dlng)
+        );
+   }
+   //计算两个坐标的直线距离
+    
+   public function getDistance($lat1, $lng1, $lat2, $lng2){      
+          $earthRadius = 6378138; //近似地球半径米
+          // 转换为弧度
+          $lat1 = ($lat1 * pi()) / 180;
+          $lng1 = ($lng1 * pi()) / 180;
+          $lat2 = ($lat2 * pi()) / 180;
+          $lng2 = ($lng2 * pi()) / 180;
+          // 使用半正矢公式  用尺规来计算
+        $calcLongitude = $lng2 - $lng1;
+          $calcLatitude = $lat2 - $lat1;
+          $stepOne = pow(sin($calcLatitude / 2), 2) + cos($lat1) * cos($lat2) * pow(sin($calcLongitude / 2), 2);  
+       $stepTwo = 2 * asin(min(1, sqrt($stepOne)));
+          $calculatedDistance = $earthRadius * $stepTwo;
+          return round($calculatedDistance);
+   }
 }
