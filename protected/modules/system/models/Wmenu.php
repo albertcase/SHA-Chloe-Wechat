@@ -456,6 +456,98 @@ class Wmenu{
 
 	}
 
+	public function storeList($data)
+	{
+		$page = isset($data['page']) ? intval($data['page']) : 1;
+		$rows = isset($data['rows']) ? intval($data['rows']) : 50;
+		$search = isset($data['search']) ? $data['search'] : '';
+		$offset = ($page-1)*$rows;
+		$where = '1';			
+
+		$sqlCount = "SELECT count(id) AS num FROM same_store WHERE $where";
+		$count = $this->_db->createCommand($sqlCount)->select()->queryScalar();
+
+		$sql = "SELECT * FROM same_store WHERE $where ORDER BY id DESC  limit $offset,$rows";
+		$command = $this->_db->createCommand($sql);		
+		$menuAll = $command->select()->queryAll();
+		$menuAll = array("total"=>$count,"rows"=>$menuAll);
+		return json_encode($menuAll);
+	}
+
+	public function getStoreById($id)
+	{
+		$sql="SELECT * FROM same_store where id=".$id;
+		$rs=$this->_db->createCommand($sql)->select()->queryRow();
+		return $rs;
+	}
+
+	public function storeUpdate($data)
+	{
+		$result = array('code'=>'','msg'=>'');
+
+		try{
+			$sql = "UPDATE same_store SET country = :country, city = :city, name=:name, address=:address, telphone=:telphone, open=:open, lat=:lat, lng=:lng, picUrl=:picUrl, mapUrl=:mapUrl WHERE id=:id";
+			$command = $this->_db->createCommand($sql);
+			$command->bindParam(':id', $data['id'], PDO::PARAM_INT);
+			$command->bindParam(':country', $data['country'], PDO::PARAM_STR);
+			$command->bindParam(':city', $data['city'], PDO::PARAM_STR);
+			$command->bindParam(':name', $data['name'], PDO::PARAM_STR);
+			$command->bindParam(':address', $data['address'], PDO::PARAM_STR);
+			$command->bindParam(':telphone', $data['telphone'], PDO::PARAM_STR);
+			$command->bindParam(':open', $data['open'], PDO::PARAM_STR);
+			$command->bindParam(':lat', $data['lat'], PDO::PARAM_STR);
+			$command->bindParam(':lng', $data['lng'], PDO::PARAM_STR);
+			$command->bindParam(':picUrl', $data['picUrl'], PDO::PARAM_STR);
+			$command->bindParam(':mapUrl', $data['mapUrl'], PDO::PARAM_STR);
+			$command->execute();
+		}catch(Exception $e){print_r($e);
+			$result['code'] = 0;
+			$result['msg']  = '系统服务错误';
+			return json_encode($result);
+		}
+		$result['code'] = 1;
+		$result['msg']  = '操作成功';
+		return json_encode($result);
+	}
+
+	public function storeAdd($data)
+	{
+		$result = array('code'=>'','msg'=>'');
+
+		try{
+			$sql = "INSERT INTO same_store SET country = :country, city = :city, name=:name, address=:address, telphone=:telphone, open=:open, lat=:lat, lng=:lng, picUrl=:picUrl, mapUrl=:mapUrl";
+			$command = $this->_db->createCommand($sql);
+			$command->bindParam(':country', $data['country'], PDO::PARAM_STR);
+			$command->bindParam(':city', $data['city'], PDO::PARAM_STR);
+			$command->bindParam(':name', $data['name'], PDO::PARAM_STR);
+			$command->bindParam(':address', $data['address'], PDO::PARAM_STR);
+			$command->bindParam(':telphone', $data['telphone'], PDO::PARAM_STR);
+			$command->bindParam(':open', $data['open'], PDO::PARAM_STR);
+			$command->bindParam(':lat', $data['lat'], PDO::PARAM_STR);
+			$command->bindParam(':lng', $data['lng'], PDO::PARAM_STR);
+			$command->bindParam(':picUrl', $data['picUrl'], PDO::PARAM_STR);
+			$command->bindParam(':mapUrl', $data['mapUrl'], PDO::PARAM_STR);
+			$command->execute();
+		}catch(Exception $e){print_r($e);
+			$result['code'] = 0;
+			$result['msg']  = '系统服务错误';
+			return json_encode($result);
+		}
+		$result['code'] = 1;
+		$result['msg']  = '操作成功';
+		return json_encode($result);
+	}
+
+	public function storeDelete($data)
+	{
+		$sql = "DELETE FROM same_store WHERE id=".$data['id'];
+		$this->_db->createCommand($sql)->execute();
+		$result['code'] = 1;
+		$result['msg']  = '删除成功';
+		return json_encode($result);
+
+	}
+
 	public function pageList($data)
 	{
 		$page = isset($data['page']) ? intval($data['page']) : 1;

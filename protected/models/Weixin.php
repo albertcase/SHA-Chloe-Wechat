@@ -2,9 +2,9 @@
 
 class Weixin{
 
-	private $_TOKEN = 'samesame';
-	private $_appid = 'wxeb57276615f0d9f1';
-	private $_secret = '42ac444f36a854b3dc3c66bdc59c98cc';
+	private $_TOKEN = 'chloewechat';
+	private $_appid = 'wxd506f9846b906bbc';
+	private $_secret = '795ab96e661510dcf639f99534395225';
 	private $_eventKey = array('A1','B1','C1','C2','B2','B4','A2');
 	private $_db = null;
 	private $_fromUsername = null;
@@ -66,7 +66,7 @@ class Weixin{
 	                			if($rs[$i]['msgtype']!='news'){
 	                				continue;
 	                			}
-	                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/weichat/getopenid?openid='.$fromUsername.'&url='.urlencode($rs[$i]['url'])); 
+	                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>$rs[$i]['url']); 
 	                		}
 	                		return $this->sendMsgForNews($fromUsername, $toUsername, $time, $data);
 	                	}else{
@@ -83,7 +83,7 @@ class Weixin{
                 			if($rs[$i]['msgtype']!='news'){
                 				continue;
                 			}
-                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/weichat/getopenid?openid='.$fromUsername.'&url='.urlencode($rs[$i]['url'])); 
+                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>$rs[$i]['url']); 
                 		}
                 		return $this->sendMsgForNews($fromUsername, $toUsername, $time, $data);
                 	}
@@ -104,7 +104,7 @@ class Weixin{
 	                			if($rs[$i]['msgtype']!='news'){
 	                				continue;
 	                			}
-	                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/weichat/getopenid?openid='.$fromUsername.'&url='.urlencode($rs[$i]['url'])); 
+	                			$data[] = array('title'=>$rs[$i]['title'],'description'=>$rs[$i]['description'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>$rs[$i]['url']); 
 	                		}
 	                		return $this->sendMsgForNews($fromUsername, $toUsername, $time, $data);
 	                	}
@@ -139,7 +139,7 @@ class Weixin{
 					$baidu = json_decode($baidu, true);
 					$lat = $baidu['result'][0]['x'];
 					$lng = $baidu['result'][0]['y'];
-					$squares = $this->returnSquarePoint($lng,$lat,5000);
+					$squares = $this->returnSquarePoint($lng,$lat,10000);
 
 
 
@@ -148,12 +148,19 @@ class Weixin{
 					if(!$rs){
 						return $this->sendMsgForText($fromUsername, $toUsername, $time, "text", '很抱歉，您的附近没有门店');
 					}
+					$datas = array();
 					$data = array();
-
             		for($i=0;$i<count($rs);$i++){
-            			$meters = "(距离约" . $this->getDistance($lat,$lng,$rs[$i]['lat'],$rs[$i]['lng'])."米)";
-            			$data[] = array('title'=>$rs[$i]['name'].$meters,'description'=>$rs[$i]['name'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/store/?id='.$rs[$i]['id']); 
+            			$meter = $this->getDistance($lat,$lng,$rs[$i]['lat'],$rs[$i]['lng']);
+            			$meters = "(距离约" . $meter ."米)";
+            			$datas[$meter] = array('title'=>$rs[$i]['name'].$meters,'description'=>$rs[$i]['name'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/'.$rs[$i]['picUrl'],'url'=>Yii::app()->request->hostInfo.'/site/store?id='.$rs[$i]['id']); 
             		}
+					ksort($datas);
+					$i=0;
+					foreach($datas as $value){
+						$data[$i] = $value;
+						$i++;
+					}
             		return $this->sendMsgForNews($fromUsername, $toUsername, $time, $data);
 				}else if($msgType=='image'){
 					$this->systemLog($postStr,$fromUsername,$msgType);
