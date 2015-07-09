@@ -70,6 +70,38 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 						<input type="text" id="SystemWmenuEditstoreLng" name="SystemWmenuEditstoreLng" value="<?php echo $storeMsg['lng']?>">
 					</td>
 				</tr>
+
+				<tr>
+					<td style="text-align:right;" class="row">图片：</td>
+					<td style="text-align:left;" class="row">
+						<div id="SystemWmenuEditStoreSimgShowArea">
+							<img src="<?php echo  $baseUrl.$storeMsg['picUrl']?>" id="SystemWmenuEditStoreSimgShow">
+						</div>
+						<div id="SystemWmenuEditStoreSimgBut" style="width:120px">
+							<div id="SystemWmenuEditStoreSimgProcessing" style="display:none">
+								<img id="SystemWmenuEditStoreSimgShow" src="<?php echo $baseUrl?>/images/system/processing.gif" style="width: 20px;">
+							</div>
+							<div id="SystemWmenuEditStoreSimgButText" style="padding:10px 0 10px 0;"><a href="javascript:void(0)" class="easyui-linkbutton" >点击上传图片</a></div>
+						</div>
+						<input type="hidden" value="<?php echo $storeMsg['picUrl']?>" name="SystemWmenuEditStoreSimg" id="SystemWmenuEditStoreSimg">
+					</td>
+				</tr>
+
+				<tr>
+					<td style="text-align:right;" class="row">地图：</td>
+					<td style="text-align:left;" class="row">
+						<div id="SystemWmenuEditStoreBimgShowArea">
+							<img src="<?php echo  $baseUrl.$storeMsg['mapUrl']?>" id="SystemWmenuEditStoreBimgShow">
+						</div>
+						<div id="SystemWmenuEditStoreBimgBut" style="width:120px">
+							<div id="SystemWmenuEditStoreBmgProcessing" style="display:none">
+								<img id="SystemWmenuEditStoreBimgShow" src="<?php echo $baseUrl?>/images/system/processing.gif" style="width: 20px;">
+							</div>
+							<div id="SystemWmenuEditStoreBimgButText" style="padding:10px 0 10px 0;"><a href="javascript:void(0)" class="easyui-linkbutton" >点击上传图片</a></div>
+						</div>
+						<input type="hidden" value="<?php echo $storeMsg['mapUrl']?>" name="SystemWmenuEditStoreBimg" id="SystemWmenuEditStoreBimg">
+					</td>
+				</tr>
 				</tbody>
 				<tr>
 					<td colspan="2" style="text-align:center;width:200px" class="row">
@@ -89,8 +121,8 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 											height: parseInt($('#tt .panel').css('height')),
 											title: '编辑门店',  
 										});
-			systemWmenuEditstore.createUploader('SystemWmenuEditstoreSimg');
-			
+			systemWmenuEditstore.createUploader('SystemWmenuEditStoreSimg');
+			systemWmenuEditstore.createUploader('SystemWmenuEditStoreBimg');
 		},
 		submitForm:function(){	
 			var formdata = {
@@ -102,7 +134,9 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 				open : $("#SystemWmenuEditstoreOpen").val(),
 				lat : $("#SystemWmenuEditstoreLat").val(),
 				lng : $("#SystemWmenuEditstoreLng").val(),
-				id : $("#SystemWmenuEditstoreID").val()
+				id : $("#SystemWmenuEditstoreID").val(),
+				picUrl: $("#SystemWmenuEditStoreSimg").val(),
+				mapUrl: $("#SystemWmenuEditStoreBimg").val()
 			}
 
 			if(!systemWmenuEditstore.alertInfoMsg(formdata.id,'请求数据非法'))return false;

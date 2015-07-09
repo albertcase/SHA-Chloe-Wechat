@@ -69,6 +69,38 @@ $cs->registerScriptFile($baseUrl.'/js/jquery.fineuploader-3.7.0.min.js');
 						<input type="text" id="SystemWmenuAddstoreLng" name="SystemWmenuAddstoreLng" value="">
 					</td>
 				</tr>
+
+				<tr>
+					<td style="text-align:right;" class="row">图片：</td>
+					<td style="text-align:left;" class="row">
+						<div id="SystemWmenuAddStoreSimgShowArea">
+							<img src="" id="SystemWmenuAddStoreSimgShow">
+						</div>
+						<div id="SystemWmenuAddStoreSimgBut" style="width:120px">
+							<div id="SystemWmenuAddStoreSimgProcessing" style="display:none">
+								<img id="SystemWmenuAddStoreSimgShow" src="<?php echo $baseUrl?>/images/system/processing.gif" style="width: 20px;">
+							</div>
+							<div id="SystemWmenuAddStoreSimgButText" style="padding:10px 0 10px 0;"><a href="javascript:void(0)" class="easyui-linkbutton" >点击上传图片</a></div>
+						</div>
+						<input type="hidden" value="" name="SystemWmenuAddStoreSimg" id="SystemWmenuAddStoreSimg">
+					</td>
+				</tr>
+
+				<tr>
+					<td style="text-align:right;" class="row">地图：</td>
+					<td style="text-align:left;" class="row">
+						<div id="SystemWmenuAddStoreBimgShowArea">
+							<img src="" id="SystemWmenuAddStoreBimgShow">
+						</div>
+						<div id="SystemWmenuAddStoreBimgBut" style="width:120px">
+							<div id="SystemWmenuAddStoreBmgProcessing" style="display:none">
+								<img id="SystemWmenuAddStoreBimgShow" src="<?php echo $baseUrl?>/images/system/processing.gif" style="width: 20px;">
+							</div>
+							<div id="SystemWmenuAddStoreBimgButText" style="padding:10px 0 10px 0;"><a href="javascript:void(0)" class="easyui-linkbutton" >点击上传图片</a></div>
+						</div>
+						<input type="hidden" value="" name="SystemWmenuAddStoreBimg" id="SystemWmenuAddStoreBimg">
+					</td>
+				</tr>
 				<tr>
 					<td colspan="2" style="text-align:center;width:200px" class="row">
 						<a href="javascript:void(0)" class="easyui-linkbutton" onclick="systemWmenuAddstore.submitForm()">提交</a>
@@ -86,7 +118,8 @@ $cs->registerScriptFile($baseUrl.'/js/jquery.fineuploader-3.7.0.min.js');
 											height: parseInt($('#tt .panel').css('height')),
 											title: '添加门店',  
 										});                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-			systemWmenuAddstore.createUploader('SystemWmenuAddstoreSimg');
+			systemWmenuAddstore.createUploader('SystemWmenuAddStoreSimg');
+			systemWmenuAddstore.createUploader('SystemWmenuAddStoreBimg');
 			
 		},
 		submitForm:function(){			
@@ -98,8 +131,9 @@ $cs->registerScriptFile($baseUrl.'/js/jquery.fineuploader-3.7.0.min.js');
 				telphone : $("#SystemWmenuAddstoreTelphone").val(),
 				open : $("#SystemWmenuAddstoreOpen").val(),
 				lat : $("#SystemWmenuAddstoreLat").val(),
-				lng : $("#SystemWmenuAddstoreLng").val()
-
+				lng : $("#SystemWmenuAddstoreLng").val(),
+				picUrl: $("#SystemWmenuAddStoreSimg").val(),
+				mapUrl: $("#SystemWmenuAddStoreBimg").val()
 			}
 			if(!formdata.name){
 				$.messager.alert('系统消息',"请输入门店名称",'error');
