@@ -15,125 +15,65 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 					<th scope="col" style="text-align:right;width:20%">名称</th>
 					<th scope="col">操作项</th>
 				</tr>
-				<tr>
-					<td style="text-align:right" class="row">用户事件：</td>
+				<tr id="SystemWmenuEditstoreCountryArea">
+					<td style="text-align:right" class="row">国家：</td>
 					<td style="text-align:left" class="row">
-						<input class="easyui-combobox" name="SystemWmenuEditstorestore" id="SystemWmenuEditstorestore" data-options='  
-								valueField: "id",
-								textField: "name",
-								data: [{id:"subscribe",name:"关注"},{id:"click",name:"点击"},{id:"text",name:"接收文本"}],
-								onSelect: function(record){
-									if(record.id=="click"){
-										$("#SystemWmenuEditstoreKeywordArea").hide()
-										$("#SystemWmenuEditstoreMenuList").show();
-									}else if("text"){
-										$("#SystemWmenuEditstoreKeywordArea").show();
-										$("#SystemWmenuEditstoreMenuList").hide();
-									}else{
-										$("#SystemWmenuEditstoreKeywordArea").hide();
-										$("#SystemWmenuEditstoreMenuList").hide();
-									}
-								},
-								onLoadSuccess:function(){
-									$("#SystemWmenuEditstorestore").combobox("select", "<?php echo $wmenu["store"];?>");
-									if("<?php echo $wmenu['store'];?>"=="click"){
-										$("#SystemWmenuEditstoreMenuList").show();
-									}
-								}'>
-						
-					</td>
-				</tr>
-				<tr>
-					<td style="text-align:right" class="row">消息类型：</td>
-					<td style="text-align:left" class="row">
-						<input class="easyui-combobox" name="SystemWmenuEditstoreMsgtype" id="SystemWmenuEditstoreMsgtype" data-options='  
-								valueField: "id",
-								textField: "name",
-								data: [{id:"text",name:"文本"},{id:"news",name:"图文"}],
-								onSelect: function(record){
-									if(record.id=="text"){
-										$("#SystemWmenuEditstoreTextArea").show();
-										$("#SystemWmenuEditstoreNewsArea").hide();
-									}else if(record.id=="news"){
-										$("#SystemWmenuEditstoreTextArea").hide();
-										$("#SystemWmenuEditstoreNewsArea").show();
-									}
-								},
-								onLoadSuccess:function(){
-									$("#SystemWmenuEditstoreMsgtype").combobox("select", "<?php echo $wmenu["msgtype"];?>");
-									
-								}'>
-					</td>
-				</tr>
-				<tr id="SystemWmenuEditstoreMenuList" style="display:none">
-					<td style="text-align:right" class="row">菜单：</td>
-					<td style="text-align:left" class="row">
-						<input class="easyui-combobox" name="SystemWmenuEditstoreMenu" id="SystemWmenuEditstoreMenu" data-options='  
-								valueField: "id",
-								textField: "name",
-								data: <?php echo $pmenu?>,
-								onSelect: function(record){
-									
-								},
-								onLoadSuccess:function(){
-									$("#SystemWmenuEditstoreMenu").combobox("select", "<?php echo $wmenu["mid"];?>");
-								}'>  
-					</td>
-				</tr>
-				<tr id="SystemWmenuEditstoreKeywordArea" style="display:none">
-					<td style="text-align:right" class="row">接收的关键字：</td>
-					<td style="text-align:left" class="row">
-						<input type="text" id="SystemWmenuEditstoreKeyword" name="SystemWmenuEditstoreKeyword" value="<?php echo $wmenu["keyword"];?>">如果用户发送的不是关键字的是需要进行统一进行回复时，请不要填写关键字
-
-					</td>
-				</tr>
-				<tr id="SystemWmenuEditstoreTextArea" style="display:none">
-					<td style="text-align:right" class="row">文本消息内容：</td>
-					<td style="text-align:left" class="row">
-						<textarea cols="50" rows="10" id="SystemWmenuEditstoreText" name="SystemWmenuEditstoreText"><?php echo $wmenu['content']?></textarea>
-					</td>
-				</tr>
-				<tbody id="SystemWmenuEditstoreNewsArea" style="display:none">
-				<tr>
-					<td style="text-align:right" class="row">图文消息标题：</td>
-					<td style="text-align:left" class="row">
-						<input type="text" id="SystemWmenuEditstoreTitle" name="SystemWmenuEditstoreTitle" value="<?php echo $wmenu['title']?>">
+						<input type="text" id="SystemWmenuEditstoreCountry" name="SystemWmenuEditstoreCountry" value="<?php echo $storeMsg['country']?>">
 					</td>
 				</tr>
 
-				<tr>
-					<td style="text-align:right" class="row">图文消息描述：</td>
+				<tr id="SystemWmenuEditstoreCityArea">
+					<td style="text-align:right" class="row">城市：</td>
 					<td style="text-align:left" class="row">
-						<textarea cols="50" rows="10" id="SystemWmenuEditstoreDiscription" name="SystemWmenuEditstoreDiscription"><?php echo $wmenu['description']?></textarea>
+						<input type="text" id="SystemWmenuEditstoreCity" name="SystemWmenuEditstoreCity" value="<?php echo $storeMsg['city']?>">
 					</td>
 				</tr>
-				<tr>
-					<td style="text-align:right;" class="row">图文消息图片：</td>
-					<td style="text-align:left;" class="row">
-						<div id="SystemWmenuEditstoreSimgShowArea">
-							<img src="<?php echo $baseUrl.$wmenu['picUrl']?>" id="SystemWmenuEditstoreSimgShow" width="100px">
-						</div>
-						<div id="SystemWmenuEditstoreSimgBut" style="width:120px">
-							<div id="SystemWmenuEditstoreSimgProcessing" style="display:none">
-								<img id="SystemWmenuEditstoreSimgShow" src="<?php echo $baseUrl?>/images/system/processing.gif" style="width: 20px;">
-							</div>
-							<div id="SystemWmenuEditstoreSimgButText" style="padding:10px 0 10px 0;"><a href="javascript:void(0)" class="easyui-linkbutton" >点击上传图片</a></div>
-						</div>
-						<input type="hidden" value="<?php echo $wmenu['picUrl']?>" name="SystemWmenuEditstoreSimg" id="SystemWmenuEditstoreSimg">
-					</td>
-				</tr>
-				
 
-				<tr>
-					<td style="text-align:right" class="row">图文消息链接：</td>
+				<tr id="SystemWmenuEditstoreNameArea">
+					<td style="text-align:right" class="row">门店名称：</td>
 					<td style="text-align:left" class="row">
-						<input type="text" id="SystemWmenuEditstoreUrl2" name="SystemWmenuEditstoreUrl2" value="<?php echo $wmenu['url']?>">
+						<input type="text" id="SystemWmenuEditstoreName" name="SystemWmenuEditstoreName" value="<?php echo $storeMsg['name']?>">
+					</td>
+				</tr>
+
+				<tr id="SystemWmenuEditstoreAddressArea">
+					<td style="text-align:right" class="row">门店地址：</td>
+					<td style="text-align:left" class="row">
+						<input type="text" id="SystemWmenuEditstoreAddress" name="SystemWmenuEditstoreAddress" value="<?php echo $storeMsg['address']?>">
+					</td>
+				</tr>
+
+				<tr id="SystemWmenuEditstoreTelphoneArea">
+					<td style="text-align:right" class="row">电话：</td>
+					<td style="text-align:left" class="row">
+						<input type="text" id="SystemWmenuEditstoreTelphone" name="SystemWmenuEditstoreTelphone" value="<?php echo $storeMsg['telphone']?>">
+					</td>
+				</tr>
+
+				<tr id="SystemWmenuEditstoreOpenArea">
+					<td style="text-align:right" class="row">营业时间：</td>
+					<td style="text-align:left" class="row">
+						<input type="text" id="SystemWmenuEditstoreOpen" name="SystemWmenuEditstoreOpen" value="<?php echo $storeMsg['open']?>">
+					</td>
+				</tr>
+
+				<tr id="SystemWmenuEditstoreLatArea">
+					<td style="text-align:right" class="row">经度：</td>
+					<td style="text-align:left" class="row">
+						<input type="text" id="SystemWmenuEditstoreLat" name="SystemWmenuEditstoreLat" value="<?php echo $storeMsg['lat']?>">
+					</td>
+				</tr>
+
+				<tr id="SystemWmenuEditstoreLngArea">
+					<td style="text-align:right" class="row">纬度：</td>
+					<td style="text-align:left" class="row">
+						<input type="text" id="SystemWmenuEditstoreLng" name="SystemWmenuEditstoreLng" value="<?php echo $storeMsg['lng']?>">
 					</td>
 				</tr>
 				</tbody>
 				<tr>
 					<td colspan="2" style="text-align:center;width:200px" class="row">
-						<input type="hidden" value="<?php echo $wmenu['id']?>" name="SystemWmenuEditstoreID" id="SystemWmenuEditstoreID">
+						<input type="hidden" value="<?php echo $storeMsg['id']?>" name="SystemWmenuEditstoreID" id="SystemWmenuEditstoreID">
 						<a href="javascript:void(0)" class="easyui-linkbutton" onclick="systemWmenuEditstore.submitForm()">提交</a>
 					</td>
 				</tr>
@@ -147,22 +87,21 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 		init:function(){
 			$("#SystemWmenuEditstorePanel").panel({
 											height: parseInt($('#tt .panel').css('height')),
-											title: '编辑微信事件',  
+											title: '编辑门店',  
 										});
 			systemWmenuEditstore.createUploader('SystemWmenuEditstoreSimg');
 			
 		},
 		submitForm:function(){	
 			var formdata = {
-				mid : $("input[name='SystemWmenuEditstoreMenu']").val(),
-				store : $("input[name='SystemWmenuEditstorestore']").val(),
-				msgtype : $("input[name='SystemWmenuEditstoreMsgtype']").val(),
-				content : $("#SystemWmenuEditstoreText").val(),
-				title : $("#SystemWmenuEditstoreTitle").val(),
-				description : $("#SystemWmenuEditstoreDiscription").val(),
-				picUrl : $("#SystemWmenuEditstoreSimg").val(),
-				url : $("#SystemWmenuEditstoreUrl2").val(),
-				keyword : $("#SystemWmenuEditstoreKeyword").val(),
+				country : $("#SystemWmenuEditstoreCountry").val(),
+				city : $("#SystemWmenuEditstoreCity").val(),
+				name : $("#SystemWmenuEditstoreName").val(),
+				address : $("#SystemWmenuEditstoreAddress").val(),
+				telphone : $("#SystemWmenuEditstoreTelphone").val(),
+				open : $("#SystemWmenuEditstoreOpen").val(),
+				lat : $("#SystemWmenuEditstoreLat").val(),
+				lng : $("#SystemWmenuEditstoreLng").val(),
 				id : $("#SystemWmenuEditstoreID").val()
 			}
 
@@ -177,7 +116,7 @@ $msgTypeAry = array('text'=>'文本','news'=>'图文','image'=>'图片',);
 				success:function(data){					
 					if(data.code==1){						
 						$.messager.alert('系统消息',data.msg);
-						$('#tt').tabs('close','编辑微信事件').tabs("select","微信事件列表");
+						$('#tt').tabs('close','编辑门店').tabs("select","门店列表");
 						$('#systemWmenustoreDatagrid').datagrid('reload');
 					}else{
 						$.messager.alert('系统消息',data.msg,'error');
