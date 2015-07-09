@@ -249,7 +249,7 @@ class WmenuController extends SystemController
 	{
 		$wmenu = new Wmenu();
 		$storeMsg = $wmenu->getStoreById($id);
-		$this->render('editqrcode',array('storeMsg'=>$storeMsg));
+		$this->render('editstore',array('storeMsg'=>$storeMsg));
 	}
 
 	public function actionStoreupdate()
