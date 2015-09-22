@@ -21,7 +21,7 @@ class ApiController extends Controller
 		for ($i=0;$i<count($picList);$i++) {
 			for ($j=0;$j<count($typeList);$j++) {
 				if ($typeList[$j]['id'] == $picList[$i]['tid']) {
-					$slideList[$typeList[$j]['name']]['list'][]=$picList[$i];
+					$slideList[$typeList[$j]['name']][]=$picList[$i];
 				}
 			}
 		}
