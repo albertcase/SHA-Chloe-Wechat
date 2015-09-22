@@ -1,13 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+<title>Chloé 2016 秋冬时装秀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="format-detection" content="telephone=no">
+<!--禁用手机号码链接(for iPhone)-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui" />
+<!--自适应设备宽度-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--控制全屏时顶部状态栏的外，默认白色-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="Keywords" content="">
+<meta name="Description" content="...">
+
+
+
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/main.css" />
+
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/PxLoader.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/swipe.js"></script>
+
 </head>
 <body>
-	<?php echo $content; ?>
+<div id="heng"></div>
+
+<?php echo $content; ?>
+
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js"></script>
+
 </body>
 </html>
-
