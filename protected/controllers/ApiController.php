@@ -1,6 +1,6 @@
 <?php
 
-class SiteController extends Controller
+class ApiController extends Controller
 {
 	/**
 	 * This is the default 'index' action that is invoked
@@ -11,9 +11,20 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
-	public function actionStore($id)
+	public function actionList()
 	{
-		$sql = "select * from same_store where id = ".intval($id);
+		$sql = "select id,name from same_type";
+		$typeList = Yii::app()->db->createCommand($sql)->queryAll();
+		$sql2 = "select tid,url from same_pic where tid in (select id from same_type)";
+		$picList = Yii::app()->db->createCommand($sql2)->queryAll();
+		for ($i=0;$i<count($picList);$i++) {
+			for ($j=0;$j<count($typeList);$j++) {
+				if ($typeList[$j]['id'] == $picList[$i]['tid']) {
+					$typeList[$j]['list'][]=$picList[$i];
+				}
+			}
+		}
+		echo json_encode($typeList);exit;
 		$store = Yii::app()->db->createCommand($sql)->queryRow();
 		$this->render('store', array('store' => $store));
 	}

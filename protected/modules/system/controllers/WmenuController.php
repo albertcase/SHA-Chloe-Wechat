@@ -1,5 +1,4 @@
 <?php
-
 class WmenuController extends SystemController
 {
 	public function actionIndex()
@@ -222,6 +221,71 @@ class WmenuController extends SystemController
 		if(isset($_POST)){
 			$wmenu = new Wmenu();
 			$wmenuJson = $wmenu->qrcodeDelete($_POST);
+			echo $wmenuJson;
+			Yii::app()->end();
+		}
+		echo json_encode(array('code'=>'3','msg'=>'参数错误'));
+		Yii::app()->end();
+	}
+
+	public function actionStore()
+	{
+		$this->render('store');
+	}
+
+	public function actionStorelist()
+	{
+		if(isset($_POST)){
+			$wmenu = new Wmenu();
+			$wmenuJson = $wmenu->storeList($_POST);
+			echo $wmenuJson;
+			Yii::app()->end();
+		}
+		echo json_encode(array('code'=>'3','msg'=>'参数错误'));
+		Yii::app()->end();
+	}
+
+	public function actionEditStore($id)
+	{
+		$wmenu = new Wmenu();
+		$storeMsg = $wmenu->getStoreById($id);
+		$this->render('editstore',array('storeMsg'=>$storeMsg));
+	}
+
+	public function actionStoreupdate()
+	{
+		if(isset($_POST)){
+			$wmenu = new Wmenu();
+			$wmenuJson = $wmenu->storeUpdate($_POST);
+			echo $wmenuJson;
+			Yii::app()->end();
+		}
+		echo json_encode(array('code'=>'3','msg'=>'参数错误'));
+		Yii::app()->end();
+	}
+
+	public function actionAddStore()
+	{
+		$this->render('addstore');
+	}
+
+	public function actionStoreadd()
+	{
+		if(isset($_POST)){
+			$wmenu = new Wmenu();
+			$wmenuJson = $wmenu->storeAdd($_POST);
+			echo $wmenuJson;
+			Yii::app()->end();
+		}
+		echo json_encode(array('code'=>'3','msg'=>'参数错误'));
+		Yii::app()->end();
+	}
+
+	public function actionStoredelete()
+	{
+		if(isset($_POST)){
+			$wmenu = new Wmenu();
+			$wmenuJson = $wmenu->storeDelete($_POST);
 			echo $wmenuJson;
 			Yii::app()->end();
 		}

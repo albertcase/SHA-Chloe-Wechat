@@ -10,8 +10,8 @@ class WeixinController extends Controller
 	public function actionIndex()
 	{
 		$wechatObj = new Weixin();
-		 //echo $wechatObj->valid($_GET["echostr"]);
-		 //Yii::app()->end();
+		//echo $wechatObj->valid($_GET["echostr"]);
+		//Yii::app()->end();
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
 
 		echo $wechatObj->responseMsg($postStr);
@@ -19,13 +19,10 @@ class WeixinController extends Controller
 	}
 	public function actionTest()
 	{
-		$openid=$_SESSION['openid'];
+		$postStr=$_GET['data'];
 		$wechatObj = new Weixin();
-		$access_token=$wechatObj->getAccessToken();
-		$res=file_get_contents("https://api.weixin.qq.com/cgi-bin/user/info?access_token=$access_token&openid=$openid&lang=zh_CN");
-		$res=json_decode($res,true);
-		echo "<pre>";
-		print_r($res);
+		echo $wechatObj->responseMsg($postStr);
+		Yii::app()->end();
 	}
 	/**
 	 * This is the action to handle external exceptions.

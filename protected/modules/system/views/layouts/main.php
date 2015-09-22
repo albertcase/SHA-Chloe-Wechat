@@ -92,8 +92,8 @@
 	></ul>
 	</div>
 	<!-- <div data-options="region:'east',split:true,collapsed:true,title:'East'" style="width:100px;padding:10px;">east region</div> -->
-	<div data-options="region:'south',border:false" style="height:50px;text-align:center">Copyright &copy; <?php echo date('Y'); ?> by TRIO DIGITAL.<br/>
-		All Rights Reserved.<br/>Powered by TRIO DIGITAL</div>
+	<div data-options="region:'south',border:false" style="height:50px;text-align:center">Copyright &copy; <?php echo date('Y'); ?> by SameSame.<br/>
+		All Rights Reserved.<br/>Powered by SameSame</div>
 	<div data-options="region:'center'" id="mainWindow">
 		<div class="easyui-tabs" id="tt" data-options="fit:true,border:false">
 			<div title="首页" style="padding:20px;overflow:hidden;" data-options="href:'<?php echo Yii::app()->request->baseUrl; ?>/system/site/serverInfo'">
