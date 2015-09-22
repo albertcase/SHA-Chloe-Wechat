@@ -7939,3 +7939,39 @@ REQUEST_URI=/api/list
 in /vagrant/protected/controllers/ApiController.php (27)
 in /vagrant/index.php (19)
 >>>>>>> f6b5339a4b471071646243db4d65eda5022ebe02
+2015/09/22 18:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:30:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:30:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---

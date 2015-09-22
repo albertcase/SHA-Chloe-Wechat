@@ -22,7 +22,7 @@ $.map(aa,function(v,k){
 
 
 $.map(aa.cc.list,function(v,k){
-	console.log(v);
+	//console.log(v);
 	//console.log(k);
 })
 
@@ -131,7 +131,7 @@ var modelname = [
 
 
 var callback = function(contents, status){
-	//console.log(contents)
+	console.log(contents)
 	// $.map(contents,function(v,k){
 	// 	console.log(v)
 	// })
