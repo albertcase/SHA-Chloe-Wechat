@@ -22,6 +22,9 @@
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/PxLoader.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/swipe.js"></script>
+<script type="text/javascript">
+	var baseUrl = '<?php echo Yii::app()->request->baseUrl; ?>';
+</script>
 
 </head>
 <body>
