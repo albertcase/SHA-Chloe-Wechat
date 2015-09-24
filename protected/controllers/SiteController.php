@@ -11,6 +11,11 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
+	public function actionProlist()
+	{
+		$this->render('prolist');
+	}
+
 	public function actionStore($id)
 	{
 		$sql = "select * from same_store where id = ".intval($id);

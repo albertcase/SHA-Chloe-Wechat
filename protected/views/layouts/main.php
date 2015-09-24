@@ -14,14 +14,16 @@
 <meta name="Description" content="...">
 
 
-
+<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/main.css" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/tweenMax.min.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/PxLoader.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/swipe.js"></script>
+
 <script type="text/javascript">
 	var baseUrl = '<?php echo Yii::app()->request->baseUrl; ?>';
 </script>
@@ -29,6 +31,7 @@
 </head>
 <body>
 <div id="heng"></div>
+
 
 <?php echo $content; ?>
 
