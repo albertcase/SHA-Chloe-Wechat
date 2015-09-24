@@ -58,6 +58,7 @@ window.location.hash= '';
 			}, 0.3);
 		});
 	event.stopPropagation();
+	return false;
 });
 
 document.addEventListener('touchmove' , function (ev){
