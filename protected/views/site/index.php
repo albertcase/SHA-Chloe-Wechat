@@ -1,8 +1,26 @@
+
+
 <div id="loading">
 	<div class="loading-logo">
 		<div class="loading-mask"></div>
 	</div>
 </div>
+
+<div class="homepage">
+	<div href="javascript:;" class="logo">
+		<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/logo.png" width="100%" />
+	</div>
+
+	<div class="slogan">
+		<a href="javascript:;">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/slogan.png" width="100%" />
+		</a>
+	</div>
+	
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/index.jpg" id="index_bg" width="100%" />
+</div>
+
+
 
 <div class="burger">
 	<div class="burger_con">
@@ -11,15 +29,9 @@
 		<span class="bottom" style="width: 100%;"></span>
 	</div>
 </div>
+
 <div class="menu" id="menu">
-	<ul>
-		<li data-menuanchor="firstPage"><a href="#firstPage">直击现场</a></li>
-		<li data-menuanchor="secondPage"><a href="#secondPage">细节之美</a></li>
-		<li data-menuanchor="3rdPage"><a href="#3rdPage">手袋配饰</a></li>
-		<li data-menuanchor="4thPage"><a href="#4thPage">后台摄影</a></li>
-		<li data-menuanchor="5thPage"><a href="#5thPage">群星闪耀</a></li>
-		<li data-menuanchor="6thPage"><a href="#6thPage">视频集锦</a></li>
-	</ul>
+	<ul></ul>
 </div>
 
 <div id="mask"></div>
@@ -29,26 +41,15 @@
 
 
 
-<div id="fullpage">
-	
+<div id="fullpage"></div>
 
 
 
-	<div class="section " id="looks">
-		
-	</div>
-	<div class="section" id="details">
-	    
-	</div>
-	<div class="section" id="acc">
-		
-	</div>
-	<div class="section" id="backstage">
-		
-	</div>
-	<div class="section" id="guests">
-		
-    </div>
 
 
-</div>
+
+
+
+
+
+

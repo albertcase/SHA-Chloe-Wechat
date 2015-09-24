@@ -7975,6 +7975,7 @@ Stack trace:
 REQUEST_URI=/upload/guests/guest32.jpg
 HTTP_REFERER=http://192.168.8.113:9027/
 ---
+<<<<<<< HEAD
 2015/09/23 15:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "system/slideshow/type"。' in /vagrant/protected/framework/web/CWebApplication.php:286
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/slidesho...')
@@ -8003,12 +8004,349 @@ REQUEST_URI=/system/slideshow/type?_=1443001100092
 HTTP_REFERER=http://127.0.0.1:9027/system
 ---
 2015/09/24 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
+2015/09/22 18:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:39:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:47:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:48:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/magnifier.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/magnifie...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/magnifier.png
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/22 18:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/guests/guest32.jpg
+HTTP_REFERER=http://192.168.8.113:9027/
+---
+2015/09/23 09:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
 #1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
 #2 /vagrant/index.php(19): CApplication->run()
 #3 {main}
 REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
 HTTP_REFERER=http://127.0.0.1:9027/system/login
 ---
 2015/09/24 12:17:36 [error] [exception.CException] exception 'CException' with message '别名 "ext.json.JSON" 无效。请确认它指向一个存在的PHP文件。' in /vagrant/protected/framework/YiiBase.php:316
@@ -8139,12 +8477,76 @@ REQUEST_URI=/system/franchise/citylist
 HTTP_REFERER=http://127.0.0.1:9027/system
 ---
 2015/09/24 16:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
+HTTP_REFERER=http://192.168.8.105:9027/
+---
+2015/09/23 17:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('prolist')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/prolist
+---
+2015/09/23 17:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('prolist')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/prolist
+---
+2015/09/23 17:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('prolist')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/prolist
+---
+2015/09/23 17:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('prolist')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/prolist
+---
+2015/09/23 17:51:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('prolist')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/prolist
+---
+2015/09/23 18:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
 #1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
 #2 /vagrant/index.php(19): CApplication->run()
 #3 {main}
 REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.105:9027/
+---
+2015/09/23 18:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.105:9027/
+---
+2015/09/23 18:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
 HTTP_REFERER=http://127.0.0.1:9027/system/login
 ---
 2015/09/24 16:09:17 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_city WHERE 1.
@@ -8818,4 +9220,43 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/system/franchise/storesList
 HTTP_REFERER=http://127.0.0.1:9027/system
+=======
+HTTP_REFERER=http://192.168.8.105:9027/
+---
+2015/09/23 18:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.105:9027/
+---
+2015/09/24 09:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.103:9027/
+---
+2015/09/24 16:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/images/index.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/images/index...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/images/index.jpg
+HTTP_REFERER=http://192.168.8.103:9027/
+---
+2015/09/24 16:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "cw/images/index.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('cw/images/index...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/cw/images/index.jpg
+HTTP_REFERER=http://192.168.8.103:9027/
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
 ---
