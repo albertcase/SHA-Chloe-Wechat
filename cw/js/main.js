@@ -223,7 +223,7 @@ function homeAnimate_in(){
 	$(".logo").fadeIn();
 
 	TweenMax.staggerFromTo(".slogan",0.6,{
-		scale:1.6,
+		scale:1.4,
 		x:0,
 		y:0,
 		autoAlpha:0,
