@@ -9,7 +9,7 @@ var shareData = {
 function wechatFun(){
     $.ajax({
         type: "GET",
-        url: "/api/jssdk?url="+window.location.href.slice(0,window.location.href.indexOf('#')),
+        url: "/api/jssdk?url="+encodeURIComponent(window.location.href.slice(0,window.location.href.indexOf('#'))),
         dataType:"json"
     }).done(function(data){
             wechatShare(data.appid, data.time, data.noncestr, data.sign);
