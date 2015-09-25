@@ -11,7 +11,7 @@ function wechatFun(){
         type: "GET",
         url: "/api/jssdk",
         data: {
-            "url": window.location.href
+            "url": encodeURIComponent(window.location.href)
         },
         dataType:"json"
     }).done(function(data){
@@ -23,13 +23,13 @@ function wechatFun(){
 
 
 
-function wechatShare(_appid, timestamp_val, _noncestr, signature_val){
+function wechatShare(_appid, _timestamp_val, _noncestr, _signature_val){
   wx.config({
       debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
       appId: _appid, // 必填，公众号的唯一标识
       timestamp: _timestamp_val, // 必填，生成签名的时间戳
       nonceStr: _noncestr, // 必填，生成签名的随机串
-      signature: signature_val,// 必填，签名，见附录1
+      signature: _signature_val,// 必填，签名，见附录1
       jsApiList: [
         'checkJsApi',
         'onMenuShareTimeline',
