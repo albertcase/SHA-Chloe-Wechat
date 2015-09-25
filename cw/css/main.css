@@ -518,8 +518,8 @@ p{
 .close{
 	width: 10%;
 	position: absolute;
-	top: 2%;
-	right: 2%;
+	top: 3%;
+	right: 3%;
 	text-align: center;
 	z-index: 16;
 }
