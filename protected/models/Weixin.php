@@ -453,7 +453,7 @@ class Weixin{
 	public function getOauth()
 	{
 		$callback=Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/weixin/callback';
-		$rs = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->_appid.'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
+		$rs = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->_appid.'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect';
 		return $rs;
 		
 	}
@@ -461,7 +461,7 @@ class Weixin{
 	public function getOauth2()
 	{
 		$callback=Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/weixin/callback2';
-		$rs = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->_appid.'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect';
+		$rs = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->_appid.'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
 		return $rs;
 		
 	}

@@ -114,6 +114,21 @@ class WeixinController extends Controller
 	public function actionCallback(){
 		$code=isset($_GET['code'])&&$_GET['code']!='authdeny'?$_GET['code']:"";
 		if(!$code){
+			Header('Location:'.$_SESSION['callback_url']);
+			Yii::app()->end();
+		}
+		$wechatObj = new Weixin();
+		$rs=$wechatObj->getOauthAccessToken($code);
+		if(isset($rs['openid'])){
+			$_SESSION['openid']=$rs['openid'];	
+			Header('Location:'.$_SESSION['callback_url']);
+			Yii::app()->end();
+		}
+	}
+	
+	public function actionCallback2(){
+		$code=isset($_GET['code'])&&$_GET['code']!='authdeny'?$_GET['code']:"";
+		if(!$code){
 			unset($_SESSION['weixin_info_id']);
 			Header('Location:'.$_SESSION['callback_url']);
 			Yii::app()->end();
@@ -139,19 +154,6 @@ class WeixinController extends Controller
 		}
 	}
 
-	public function actionCallback2(){
-		$code=isset($_GET['code'])&&$_GET['code']!='authdeny'?$_GET['code']:"";
-		if(!$code){
-			Header('Location:'.$_SESSION['callback_url']);
-			Yii::app()->end();
-		}
-		$wechatObj = new Weixin();
-		$rs=$wechatObj->getOauthAccessToken($code);
-		if(isset($rs['openid'])){
-			$_SESSION['openid']=$rs['openid'];	
-			Header('Location:'.$_SESSION['callback_url']);
-			Yii::app()->end();
-		}
-	}
+	
 
 }
