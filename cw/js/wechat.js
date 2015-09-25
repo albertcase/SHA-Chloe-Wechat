@@ -24,7 +24,10 @@ function wechatFun(){
 
 
 function wechatShare(_appid, timestamp_val, _noncestr, signature_val){
-
+    alert(_appid);
+    alert(timestamp_val);
+    alert(_noncestr);
+    alert(signature_val);
   wx.config({
       debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
       appId: _appid, // 必填，公众号的唯一标识
