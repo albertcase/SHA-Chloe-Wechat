@@ -7975,6 +7975,36 @@ Stack trace:
 REQUEST_URI=/upload/guests/guest32.jpg
 HTTP_REFERER=http://192.168.8.113:9027/
 ---
+<<<<<<< HEAD
+2015/09/23 15:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "system/slideshow/type"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/slidesho...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/system/slideshow/type?_=1442992477944
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/23 15:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "system/shldeshow/pic"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/shldesho...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/system/shldeshow/pic?_=1442992479126
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/23 17:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "system/slideshow/type"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/slidesho...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/system/slideshow/type?_=1443001100092
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
 2015/09/22 18:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/guests/guest32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/guests/g...')
@@ -8309,12 +8339,145 @@ REQUEST_URI=/upload/guests/guest32.jpg
 HTTP_REFERER=http://192.168.8.113:9027/
 ---
 2015/09/23 09:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
 #1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
 #2 /vagrant/index.php(19): CApplication->run()
 #3 {main}
 REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
+HTTP_REFERER=http://127.0.0.1:9027/system/login
+---
+2015/09/24 12:17:36 [error] [exception.CException] exception 'CException' with message '别名 "ext.json.JSON" 无效。请确认它指向一个存在的PHP文件。' in /vagrant/protected/framework/YiiBase.php:316
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(2): YiiBase::import('ext.json.JSON', true)
+#1 /vagrant/protected/framework/web/CWebApplication.php(354): require('/vagrant/protec...')
+#2 /vagrant/protected/framework/web/CWebApplication.php(338): CWebApplication->createController('franchise/city/', Object(SystemModule))
+#3 /vagrant/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('system/franchis...')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/system/franchise/city?_=1443068256088
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 12:18:01 [error] [exception.CException] exception 'CException' with message '别名 "ext.json.JSON" 无效。请确认它指向一个存在的PHP文件。' in /vagrant/protected/framework/YiiBase.php:316
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(2): YiiBase::import('ext.json.JSON', true)
+#1 /vagrant/protected/framework/web/CWebApplication.php(354): require('/vagrant/protec...')
+#2 /vagrant/protected/framework/web/CWebApplication.php(338): CWebApplication->createController('franchise/city/', Object(SystemModule))
+#3 /vagrant/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('system/franchis...')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/system/franchise/city?_=1443068262244
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 12:18:01 [error] [exception.CException] exception 'CException' with message '别名 "ext.json.JSON" 无效。请确认它指向一个存在的PHP文件。' in /vagrant/protected/framework/YiiBase.php:316
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(2): YiiBase::import('ext.json.JSON', true)
+#1 /vagrant/protected/framework/web/CWebApplication.php(354): require('/vagrant/protec...')
+#2 /vagrant/protected/framework/web/CWebApplication.php(338): CWebApplication->createController('franchise/city/', Object(SystemModule))
+#3 /vagrant/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('system/franchis...')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/system/franchise/city?_=1443068262249
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 12:18:27 [error] [php] include(Franchise.php): failed to open stream: No such file or directory (/vagrant/protected/framework/YiiBase.php:421)
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call()
+#1 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#2 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#4 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#5 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#6 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/franchise/citylist
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (17)
+in /vagrant/index.php (19)
+2015/09/24 12:18:27 [error] [php] include(Franchise.php): failed to open stream: No such file or directory (/vagrant/protected/framework/YiiBase.php:421)
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call()
+#1 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#2 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#4 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#5 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#6 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/franchise/citylist
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (17)
+in /vagrant/index.php (19)
+2015/09/24 12:22:03 [error] [php] include(Franchise.php): failed to open stream: No such file or directory (/vagrant/protected/framework/YiiBase.php:421)
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call()
+#1 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#2 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#4 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#5 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#6 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/franchise/citylist
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (17)
+in /vagrant/index.php (19)
+2015/09/24 14:46:19 [error] [php] include(Franchise.php): failed to open stream: No such file or directory (/vagrant/protected/framework/YiiBase.php:421)
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call()
+#1 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#2 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#4 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#5 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#6 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/franchise/citylist
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (17)
+in /vagrant/index.php (19)
+2015/09/24 14:46:25 [error] [php] include(Franchise.php): failed to open stream: No such file or directory (/vagrant/protected/framework/YiiBase.php:421)
+Stack trace:
+#0 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call()
+#1 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#2 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#4 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#5 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#6 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/franchise/citylist
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (17)
+in /vagrant/index.php (19)
+2015/09/24 14:49:44 [error] [exception.CException] exception 'CException' with message '别名 "ext.json.JSON" 无效。请确认它指向一个存在的PHP文件。' in /vagrant/protected/framework/YiiBase.php:316
+Stack trace:
+#0 /vagrant/protected/modules/system/models/Franchise.php(2): YiiBase::import('ext.json.JSON', true)
+#1 /vagrant/protected/framework/YiiBase.php(421): include('/vagrant/protec...')
+#2 [internal function]: YiiBase::autoload('Franchise')
+#3 /vagrant/protected/modules/system/controllers/FranchiseController.php(17): spl_autoload_call('Franchise')
+#4 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#5 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('citylist')
+#9 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#10 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /vagrant/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/system/franchise/citylist
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
 HTTP_REFERER=http://192.168.8.105:9027/
 ---
 2015/09/23 17:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "prolist"。' in /vagrant/protected/framework/web/CWebApplication.php:286
@@ -8376,12 +8539,688 @@ REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://192.168.8.105:9027/
 ---
 2015/09/23 18:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
 Stack trace:
 #0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
 #1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
 #2 /vagrant/index.php(19): CApplication->run()
 #3 {main}
 REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
+HTTP_REFERER=http://127.0.0.1:9027/system/login
+---
+2015/09/24 16:09:17 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_city WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (49)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (18)
+in /vagrant/index.php (19)
+2015/09/24 16:09:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_city WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(49): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(18): Franchise->cityListForEdit(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('citylist')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/citylist
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:09:23 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_city WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (49)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (18)
+in /vagrant/index.php (19)
+2015/09/24 16:09:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_city WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(49): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(18): Franchise->cityListForEdit(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('citylist')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/citylist
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:09:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_city WHERE 1 limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (53)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (18)
+in /vagrant/index.php (19)
+2015/09/24 16:09:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_city WHERE 1 limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(53): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(18): Franchise->cityListForEdit(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionCitylist()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('citylist')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/citylist
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:11:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "system/shldeshow/pic"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/shldesho...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/system/shldeshow/pic?_=1443082289137
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:13:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_city' doesn't exist. The SQL statement executed was: INSERT INTO trio_franchise_city SET name=:name, uid=:uid, uname=:uname, status=:status.
+in /vagrant/protected/modules/system/models/Franchise.php (98)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (30)
+in /vagrant/index.php (19)
+2015/09/24 16:14:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'field list'. The SQL statement executed was: INSERT INTO same_type SET name=:name, uid=:uid, uname=:uname, status=:status.
+in /vagrant/protected/modules/system/models/Franchise.php (98)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (30)
+in /vagrant/index.php (19)
+2015/09/24 16:14:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'field list'. The SQL statement executed was: INSERT INTO same_type SET name=:name, uid=:uid, uname=:uname, status=:status.
+in /vagrant/protected/modules/system/models/Franchise.php (98)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (30)
+in /vagrant/index.php (19)
+2015/09/24 16:21:34 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_area' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_area WHERE cid in (select id from trio_franchise_city where status=1).
+in /vagrant/protected/modules/system/models/Franchise.php (189)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (57)
+in /vagrant/index.php (19)
+2015/09/24 16:21:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_area' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_area WHERE cid in (select id from trio_franchise_city where status=1)' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(189): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(57): Franchise->AreaListForEdit(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionArealist()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('arealist')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/arealist
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "stotes" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('stotes')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('stotes')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/franchise/stotes?_=1443082932925
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "stotes" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('stotes')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('stotes')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/franchise/stotes?_=1443082949771
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:22:29 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_stroes A WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (371)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 16:22:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_stroes A WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(371): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:24:18 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_stroes A WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (371)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 16:24:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_stroes A WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(371): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 16:24:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 16:24:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 17:26:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 17:26:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 17:26:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 17:26:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.cid' in 'where clause'. The SQL statement executed was: SELECT * FROM `same_pic` A, same_type B WHERE 1 AND A.cid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 17:38:13 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1.
+in /vagrant/protected/modules/system/models/Franchise.php (383)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (207)
+in /vagrant/index.php (19)
+2015/09/24 17:38:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(383): CDbCommand->queryRow()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(207): Franchise->getStoresById('1')
+#3 [internal function]: FranchiseController->actionStoresEdit('1')
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443087493503
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 17:54:05 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1.
+in /vagrant/protected/modules/system/models/Franchise.php (383)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (207)
+in /vagrant/index.php (19)
+2015/09/24 17:54:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(383): CDbCommand->queryRow()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(207): Franchise->getStoresById('1')
+#3 [internal function]: FranchiseController->actionStoresEdit('1')
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443088445273
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 17:54:09 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1.
+in /vagrant/protected/modules/system/models/Franchise.php (383)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (207)
+in /vagrant/index.php (19)
+2015/09/24 17:54:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_stroes' doesn't exist. The SQL statement executed was: SELECT * FROM trio_franchise_stroes where id=1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(383): CDbCommand->queryRow()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(207): Franchise->getStoresById('1')
+#3 [internal function]: FranchiseController->actionStoresEdit('1')
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443088449390
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:14:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc.
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (210)
+in /vagrant/index.php (19)
+2015/09/24 18:14:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/controllers/FranchiseController.php(210): CDbCommand->queryAll()
+#2 [internal function]: FranchiseController->actionStoresEdit('1')
+#3 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#4 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#5 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#9 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#10 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /vagrant/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089648961
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:14:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc.
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (210)
+in /vagrant/index.php (19)
+2015/09/24 18:14:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/controllers/FranchiseController.php(210): CDbCommand->queryAll()
+#2 [internal function]: FranchiseController->actionStoresEdit('1')
+#3 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#4 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#5 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#9 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#10 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /vagrant/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089656797
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:14:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc.
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (210)
+in /vagrant/index.php (19)
+2015/09/24 18:14:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_service' doesn't exist. The SQL statement executed was: select * from trio_service order by num asc,id desc' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/controllers/FranchiseController.php(210): CDbCommand->queryAll()
+#2 [internal function]: FranchiseController->actionStoresEdit('1')
+#3 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(FranchiseController), Array)
+#4 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(FranchiseController), Object(ReflectionMethod), Array)
+#5 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesEdit')
+#9 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system//franchi...')
+#10 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /vagrant/index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089656803
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:15:15 [error] [php] Undefined index: service (/vagrant/protected/modules/system/views/franchise/storesEdit.php:7)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089715682
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (7)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:15:15 [error] [php] Undefined index: service (/vagrant/protected/modules/system/views/franchise/storesEdit.php:7)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089715691
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (7)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:16:25 [error] [php] Undefined index: service (/vagrant/protected/modules/system/views/franchise/storesEdit.php:7)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089785409
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (7)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:16:30 [error] [php] Undefined index: service (/vagrant/protected/modules/system/views/franchise/storesEdit.php:7)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089785415
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (7)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:16:59 [error] [php] Undefined index: cid (/vagrant/protected/modules/system/views/franchise/storesEdit.php:28)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089819061
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (28)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:16:59 [error] [php] Undefined index: cid (/vagrant/protected/modules/system/views/franchise/storesEdit.php:28)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089819067
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (28)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:17:39 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesEdit.php:70)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089859087
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (70)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:17:39 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesEdit.php:70)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(209): FranchiseController->render()
+#3 unknown(0): FranchiseController->actionStoresEdit()
+#4 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#8 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#9 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#10 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesEdit?id=1&_=1443089859094
+in /vagrant/protected/modules/system/views/franchise/storesEdit.php (70)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (209)
+in /vagrant/index.php (19)
+2015/09/24 18:26:50 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesAdd.php:67)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(233): FranchiseController->render()
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresAdd()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#6 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesAdd?_=1443090410443
+in /vagrant/protected/modules/system/views/franchise/storesAdd.php (67)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (233)
+in /vagrant/index.php (19)
+2015/09/24 18:27:33 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesAdd.php:67)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(233): FranchiseController->render()
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresAdd()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#6 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesAdd?_=1443090453721
+in /vagrant/protected/modules/system/views/franchise/storesAdd.php (67)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (233)
+in /vagrant/index.php (19)
+2015/09/24 18:27:38 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesAdd.php:67)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(233): FranchiseController->render()
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresAdd()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#6 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesAdd?_=1443090458169
+in /vagrant/protected/modules/system/views/franchise/storesAdd.php (67)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (233)
+in /vagrant/index.php (19)
+2015/09/24 18:27:38 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesAdd.php:67)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(233): FranchiseController->render()
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresAdd()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#6 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesAdd?_=1443090458799
+in /vagrant/protected/modules/system/views/franchise/storesAdd.php (67)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (233)
+in /vagrant/index.php (19)
+2015/09/24 18:27:38 [error] [php] Undefined variable: serviceList (/vagrant/protected/modules/system/views/franchise/storesAdd.php:67)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(869): FranchiseController->renderFile()
+#1 /vagrant/protected/framework/web/CController.php(782): FranchiseController->renderPartial()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(233): FranchiseController->render()
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresAdd()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /vagrant/protected/framework/web/CController.php(286): FranchiseController->runAction()
+#6 /vagrant/protected/framework/web/CController.php(265): FranchiseController->runActionWithFilters()
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): FranchiseController->run()
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system//franchise/storesAdd?_=1443090458803
+in /vagrant/protected/modules/system/views/franchise/storesAdd.php (67)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (233)
+in /vagrant/index.php (19)
+2015/09/24 18:39:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cid' in 'field list'. The SQL statement executed was: INSERT INTO same_pic SET cid=:cid, url=:url.
+in /vagrant/protected/modules/system/models/Franchise.php (450)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (228)
+in /vagrant/index.php (19)
+2015/09/24 18:40:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cid' in 'field list'. The SQL statement executed was: INSERT INTO same_pic SET cid=:cid, url=:url.
+in /vagrant/protected/modules/system/models/Franchise.php (450)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (228)
+in /vagrant/index.php (19)
+2015/09/24 18:50:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 18:50:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:50:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 18:50:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2015/09/24 18:51:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50.
+in /vagrant/protected/modules/system/models/Franchise.php (375)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (196)
+in /vagrant/index.php (19)
+2015/09/24 18:51:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'a'. The SQL statement executed was: SELECT a.*,b.name FROM `same_pic` A, same_type B WHERE 1 AND A.tid=B.id limit 0,50' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(375): CDbCommand->queryAll()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(196): Franchise->storesList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionStoresList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('storesList')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/storesList
+HTTP_REFERER=http://127.0.0.1:9027/system
+=======
 HTTP_REFERER=http://192.168.8.105:9027/
 ---
 2015/09/23 18:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
@@ -8419,6 +9258,7 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/cw/images/index.jpg
 HTTP_REFERER=http://192.168.8.103:9027/
+>>>>>>> c06ec2414fff30dd23b6eacffe2ebfaadccad8d4
 ---
 2015/09/25 09:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
 Stack trace:
