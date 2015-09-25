@@ -361,10 +361,10 @@ class Weixin{
 	    $http_data['openid'] = $openid;
 	 	$http_data['lang'] = $lang;
 		$result = file_get_contents('https://api.weixin.qq.com/cgi-bin/user/info?' . http_build_query($http_data));
-		if(!$result){
+		$result = json_decode($result, true);
+		if(!isset($result['subscribe'])){
 			return 0;
 		}
-		$result = json_decode($result, true);
 		return $result['subscribe'];
 	}
 
