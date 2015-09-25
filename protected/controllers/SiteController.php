@@ -8,7 +8,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		if(!$_SESSION['openid']){
+		if(!isset($_SESSION['openid'])){
 			Header('Location: /weixin/oauth?callback=/');
 			Yii::app()->end();
 		}
