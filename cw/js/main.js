@@ -11,9 +11,9 @@ var callback = function(contents, status){
 			return '<div class="slide"><img src="'+j.url+'" style="width:109%" /></div>';
 		}).join("");
 
-		menuArr.push(itemnum);
+		menuArr.push("item"+itemnum);
 		contentHtmls += '<div class="section">'+categorylistHtmls+'</div>'
-		return '<li data-menuanchor="item'+itemnum+'"><a href="#'+itemnum+'">'+k+'</a></li>';
+		return '<li data-menuanchor="item'+itemnum+'"><a href="#item'+itemnum+'">'+k+'</a></li>';
 	}).join("");
 
 	//console.log(contentHtmls);
