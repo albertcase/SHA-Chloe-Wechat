@@ -1,7 +1,7 @@
 var shareData = {
     "title": "Chloé 2016 春夏时装秀",
-    "link": baseUrl,
-    "imgUrl": baseUrl + "/cw/images/share.jpg",
+    "link": window.location.href.slice(0,window.location.href.indexOf('#')),
+    "imgUrl": window.location.href.slice(0,window.location.href.indexOf('#')) + "cw/images/share.jpg",
     "desc": "Chloé 2016 春夏巴黎时装周，发现秀场精彩"
 }
 
@@ -9,7 +9,7 @@ var shareData = {
 function wechatFun(){
     $.ajax({
         type: "GET",
-        url: "/api/jssdk?url="+window.location.href.slice(0,window.location.href.indexOf('#')),
+        url: "/api/jssdk?url="+encodeURIComponent(window.location.href.slice(0,window.location.href.indexOf('#'))),
         dataType:"json"
     }).done(function(data){
             wechatShare(data.appid, data.time, data.noncestr, data.sign);
@@ -21,9 +21,9 @@ function wechatFun(){
 
 
 function wechatShare(_appid, _timestamp_val, _noncestr, _signature_val){
-    alert(_appid+'|'+_timestamp_val+'|'+_noncestr+'|'+_signature_val);
+  //alert(_appid+'|'+_timestamp_val+'|'+_noncestr+'|'+_signature_val);
   wx.config({
-      debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+      debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
       appId: _appid, // 必填，公众号的唯一标识
       timestamp: _timestamp_val, // 必填，生成签名的时间戳
       nonceStr: _noncestr, // 必填，生成签名的随机串
@@ -71,7 +71,7 @@ function wechatShare(_appid, _timestamp_val, _noncestr, _signature_val){
 
     // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
     wx.onMenuShareTimeline({
-        title: shareData.title, // 分享标题
+        title: shareData.desc, // 分享标题
         link: shareData.link, // 分享链接
         imgUrl: shareData.imgUrl, // 分享图标
         success: function () {

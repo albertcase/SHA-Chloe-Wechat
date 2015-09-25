@@ -1,5 +1,4 @@
 
-
 var categoryHtml = "",categorylistHtmls = "", contentHtmls = "<div id='pupTips'><img src='"+baseUrl+"/cw/images/puptips.png' /></div>", allImgArr = [], menuArr = [];
 
 
@@ -70,7 +69,7 @@ document.addEventListener('touchmove' , function (ev){
 
 
 function reduction_fun(){
-	$(".menu,#mask").fadeOut();
+	$(".menu,#mask").hide();
 	TweenMax.staggerTo(".menu li", 0.1, {
 		rotation:0,
 		x:-60, 
@@ -230,7 +229,7 @@ function homeAnimate_in(){
 
 function homeAnimate_out(){
 	$(".logo").hide();
-	TweenMax.staggerFromTo("#index_bg",0.3,{
+	TweenMax.staggerFromTo("#index_bg",0.6,{
 		scale:1,
 		x:0,
 		y:0,
@@ -261,13 +260,13 @@ function homeAnimate_out(){
         			continuousVertical: true,
         			onLeave:function(){
         				$("#pupTips").hide();
-						$(".burger").stop().animate({"left":"0"},function(){
-							$(".burger").removeClass("hover");
-						});
+						// $(".burger").stop().animate({"left":"0"},function(){
+						// 	$(".burger").removeClass("hover");
+						// });
         			}
 			});
         }
-	},0.3)
+	},0.6)
 
 	TweenMax.staggerFromTo(".slogan",0.6,{
 		scale:1,
@@ -314,12 +313,18 @@ $(".slogan a").click(function(){
 	homeAnimate_out();
 })
 
-$(".qrcode img").click(function(){
+$(".qrcodeImg").bind("touchstart", function (event) {
+	event.stopPropagation();
 	return false;
-})
+});
 
-$(".qrcode").click(function(){
-	$(this).hide();
-})
+
+$(".qrcode, .close").bind("touchstart", function (event) {
+ 	$(".qrcode").hide();
+ 	event.stopPropagation();
+	return false;
+});
+
+
 
 
