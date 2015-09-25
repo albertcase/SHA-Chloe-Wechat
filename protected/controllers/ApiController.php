@@ -37,6 +37,14 @@ class ApiController extends Controller
 		Yii::app()->end();
 	}
 
+	public function actionStatus()
+	{
+		$wechatObj = new Weixin();
+		$status=$wechatObj->issubscribed($_SESSION['openid']);
+		echo json_encode(array('code'=>$status))
+		Yii::app()->end();
+	}
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */
