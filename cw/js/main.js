@@ -229,7 +229,7 @@ function homeAnimate_in(){
 
 function homeAnimate_out(){
 	$(".logo").hide();
-	TweenMax.staggerFromTo("#index_bg",0.3,{
+	TweenMax.staggerFromTo("#index_bg",0.6,{
 		scale:1,
 		x:0,
 		y:0,
@@ -266,7 +266,7 @@ function homeAnimate_out(){
         			}
 			});
         }
-	},0.3)
+	},0.6)
 
 	TweenMax.staggerFromTo(".slogan",0.6,{
 		scale:1,
