@@ -69,7 +69,7 @@ document.addEventListener('touchmove' , function (ev){
 
 
 function reduction_fun(){
-	$(".menu,#mask").fadeOut();
+	$(".menu,#mask").hide();
 	TweenMax.staggerTo(".menu li", 0.1, {
 		rotation:0,
 		x:-60, 
