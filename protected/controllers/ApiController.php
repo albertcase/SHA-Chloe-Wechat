@@ -8,6 +8,7 @@ class ApiController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$_SESSION['openid'] = '111';exit;
 		$this->render('index');
 	}
 
