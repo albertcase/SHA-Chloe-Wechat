@@ -19,6 +19,9 @@
 	</div>
 
 	<div class="slogan">
+		<div class="hands_animate">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/hands.png" width="100%" />
+		</div>
 		<a href="javascript:;">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/slogan.png" width="100%" />
 		</a>

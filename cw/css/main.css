@@ -503,10 +503,41 @@ p{
 	width: 80%;
 }
 
+.hands_animate{
+	width: 16%;
+	position: absolute;
+	right: 0;
+	bottom: -26%;
+	opacity: 0;
+}
 
 
 
 
+
+.hands_animate { 
+  -webkit-animation: hands 1.5s 5 ease-in-out;
+     -moz-animation: hands 1.5s 5 ease-in-out;
+          animation: hands 1.5s 5 ease-in-out;
+}
+
+
+
+@-webkit-keyframes hands {
+  0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+  60% {opacity: 1;-webkit-transform: translate(0,0);}
+  100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes hands {
+  0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+  60% {opacity: 1;-webkit-transform: translate(0,0);}
+  100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@keyframes hands {
+  0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+  60% {opacity: 1;-webkit-transform: translate(0,0);}
+  100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
 
 
 
