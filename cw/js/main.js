@@ -326,7 +326,9 @@ $(".qrcode, .close").bind("touchstart", function (event) {
 });
 
 
-
+$(".menu li").click(function(){
+	alert(7);
+})
 
 
 
