@@ -172,7 +172,6 @@ p{
 	line-height: 34px;
 	display: inline-block;
 	text-transform : capitalize;
-	background: pink;
 }
 
 .menu li.active{

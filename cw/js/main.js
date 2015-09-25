@@ -47,13 +47,13 @@ window.location.hash = '';
 	$(".burger").addClass("hover").stop().animate({"left":"-100px"},function(){
 		$(".menu").show();
 
-			// TweenMax.staggerTo(".menu li", 0.3, {
-			// 	rotation:360,
-			// 	x:60, 
-			// 	y:30, 
-			// 	opacity:1,
-			// 	ease:SlowMo.ease.config(0.5, 0.4)
-			// }, 0.3);
+			TweenMax.staggerTo(".menu li", 0.3, {
+				rotation:360,
+				x:60, 
+				y:30, 
+				opacity:1,
+				ease:SlowMo.ease.config(0.5, 0.4)
+			}, 0.3);
 		});
 	event.stopPropagation();
 	return false;
@@ -70,13 +70,13 @@ document.addEventListener('touchmove' , function (ev){
 
 function reduction_fun(){
 	$(".menu,#mask").hide();
-	// TweenMax.staggerTo(".menu li", 0.1, {
-	// 	rotation:0,
-	// 	x:-60, 
-	// 	y:-30, 
-	// 	opacity:0,
-	// 	ease:Linear.easeNone
-	// }, 0.1);
+	TweenMax.staggerTo(".menu li", 0.1, {
+		rotation:0,
+		x:-60, 
+		y:-30, 
+		opacity:0,
+		ease:Linear.easeNone
+	}, 0.1);
 	$(".burger").stop().animate({"left":"0"},function(){
 		$(".burger").removeClass("hover");
 	});
