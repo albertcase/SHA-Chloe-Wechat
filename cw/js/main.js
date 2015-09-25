@@ -286,20 +286,20 @@ function homeAnimate_out(){
         }
 	},0.6)
 
-	TweenMax.staggerFromTo("#pupTips",0.3,{
-		scale:1.2,
-		x:0,
-		y:0,
-		autoAlpha:0,
-		opacity:0
-	},{
-		scale:1,
-		x:0,
-		y:0,
-		autoAlpha:1,
-		opacity:1,
-		easing: 'easeOutCubic'
-	},0.3)
+	// TweenMax.staggerFromTo("#pupTips",0.3,{
+	// 	scale:1.2,
+	// 	x:0,
+	// 	y:0,
+	// 	autoAlpha:0,
+	// 	opacity:0
+	// },{
+	// 	scale:1,
+	// 	x:0,
+	// 	y:0,
+	// 	autoAlpha:1,
+	// 	opacity:1,
+	// 	easing: 'easeOutCubic'
+	// },0.3)
 
 }
 
