@@ -11,10 +11,11 @@ function wechatFun(){
         type: "GET",
         url: "/api/jssdk",
         data: {
-            "url": baseUrl
+            "url": window.location.href.substr(0,window.location.href.indexOf('#'))
         },
         dataType:"json"
     }).done(function(data){
+            alert(window.location.href.substr(0,window.location.href.indexOf('#')))
             wechatShare(data.appid, data.time, data.noncestr, data.sign);
     }).fail(function() {
         console.log("请求接口失败！");
