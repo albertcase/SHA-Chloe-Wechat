@@ -343,7 +343,7 @@ p{
     position: fixed;
     z-index: 999;
     background: #000 url("../images/heng.png") no-repeat center;
-    background-size: 60% auto;
+    background-size: 56% auto;
     top: 0;
     left: 0;
     display: none;
@@ -392,7 +392,7 @@ p{
 .homepage{
 	width: 100%;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: 100;
@@ -446,7 +446,7 @@ p{
 #pupTips{
 	width: 100%;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	top: 0;
 	
