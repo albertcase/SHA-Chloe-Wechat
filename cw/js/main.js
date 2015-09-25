@@ -23,7 +23,7 @@ var callback = function(contents, status){
 	$("#fullpage").html(contentHtmls);
 	accfun();
 	$("#pupTips").click(function(){
-		$(this).fadeOut();
+		$(this).hide();
 		$(".burger").stop().animate({"left":"0"},function(){
 			$(".burger").removeClass("hover");
 		});
@@ -167,21 +167,6 @@ function accfun(){
 				
 			} , 200)
 
-			
-			$('#fullpage').fullpage({
-					anchors: menuArr,    // 'lastPage', '6thPage'
-					menu: '#menu',
-					scrollingSpeed: 600,
-					//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
-					//css3: true,
-					fitToSection: true,
-					resize : true,
-					sectionSelector: '.section',
-					easing: 'easeInOutCubic',
-        			easingcss3: 'ease',
-        			continuousVertical: true
-			});
-
 			console.log("加载完成！");
 		} , function ( p ){
 			$('.loading-mask').css({"width":p+"%"});
@@ -261,6 +246,26 @@ function homeAnimate_out(){
 		onComplete:function(){
         	$(".homepage").hide();
         	$("#fullpage").animate({"opacity":1},600);
+
+        	$('#fullpage').fullpage({
+					anchors: menuArr,    // 'lastPage', '6thPage'
+					menu: '#menu',
+					scrollingSpeed: 600,
+					//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+					//css3: true,
+					fitToSection: true,
+					resize : true,
+					sectionSelector: '.section',
+					easing: 'easeInOutCubic',
+        			easingcss3: 'ease',
+        			continuousVertical: true,
+        			onLeave:function(){
+        				$("#pupTips").hide();
+						$(".burger").stop().animate({"left":"0"},function(){
+							$(".burger").removeClass("hover");
+						});
+        			}
+			});
         }
 	},0.3)
 
@@ -308,7 +313,7 @@ $(".qrcode img").click(function(){
 })
 
 $(".qrcode").click(function(){
-	$(this).fadeOut();
+	$(this).hide();
 })
 
 
