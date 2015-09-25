@@ -40,6 +40,7 @@ class ApiController extends Controller
 	public function actionStatus()
 	{
 		$wechatObj = new Weixin();
+		$openid = isset($_SESSION['openid'])?$_SESSION['openid']:'';
 		$status=$wechatObj->issubscribed($_SESSION['openid']);
 		echo json_encode(array('code'=>$status))
 		Yii::app()->end();
