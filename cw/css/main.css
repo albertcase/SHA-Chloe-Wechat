@@ -52,6 +52,7 @@ body{
 	font-family: arial,helvetica;
 	color: #333;
 	background: #fff;
+	line-height: 0;
 }
 .wrap{
 	margin-left: auto;
