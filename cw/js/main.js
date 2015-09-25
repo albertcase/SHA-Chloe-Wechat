@@ -260,9 +260,9 @@ function homeAnimate_out(){
         			continuousVertical: true,
         			onLeave:function(){
         				$("#pupTips").hide();
-						$(".burger").stop().animate({"left":"0"},function(){
-							$(".burger").removeClass("hover");
-						});
+						// $(".burger").stop().animate({"left":"0"},function(){
+						// 	$(".burger").removeClass("hover");
+						// });
         			}
 			});
         }
