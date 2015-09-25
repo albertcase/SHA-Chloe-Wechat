@@ -7,9 +7,10 @@ var shareData = {
 
 
 function wechatFun(){
+    var url = window.location.href.indexOf('#') >= 0 ? window.location.href.substr(0,window.location.href.indexOf('#')):window.location.href;
     $.ajax({
         type: "GET",
-        url: "/api/jssdk?url="+encodeURIComponent('http://chloewechat.samesamechina.com/'),
+        url: "/api/jssdk?url="+encodeURIComponent(url),
         dataType:"json"
     }).done(function(data){
             wechatShare(data.appid, data.time, data.noncestr, data.sign);
