@@ -30,6 +30,13 @@ class ApiController extends Controller
 		$this->render('store', array('store' => $store));
 	}
 
+	public function actionJssdk($url)
+	{
+		$wechatObj = new Weixin();
+		echo $url=$wechatObj->getJsSDK($url);
+		Yii::app()->end();
+	}
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */
