@@ -157,6 +157,7 @@ p{
 	float: left;
 	position: relative;
 	opacity: 0;
+	display: inline-block;
 }
 
 .menu li a{
