@@ -11,7 +11,7 @@ function wechatFun(){
         type: "GET",
         url: "/api/jssdk",
         data: {
-            "url": window.location.href.substr(0,window.location.href.indexOf('#'));
+            "url": window.location.href.substr(0,window.location.href.indexOf('#'))
         },
         dataType:"json"
     }).done(function(data){
