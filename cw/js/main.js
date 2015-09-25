@@ -39,7 +39,7 @@ $.post( baseUrl+'/api/list', callback, "json");
 
 
 
-window.location.hash= '';
+window.location.hash = '';
 
 
  $(".burger").bind("touchstart", function (event) {
@@ -298,7 +298,13 @@ function homeAnimate_out(){
 		y:0,
 		autoAlpha:1,
 		opacity:1,
-		easing: 'easeOutCubic'
+		easing: 'easeOutCubic',
+		onComplete:function(){
+			$(".burger").stop().animate({"left":"0"},function(){
+				$(".burger").removeClass("hover");
+			});
+        }
+		
 	},0.3)
 
 }
