@@ -1,20 +1,19 @@
 
-var categoryHtml = "",categorylistHtmls = "", contentHtmls = "<div id='pupTips'><img src='"+baseUrl+"/cw/images/puptips.png' /></div>", allImgArr = [], menuArr = [];
+var categoryHtml = "",categorylistHtmls = "", contentHtmls = "<div id='pupTips'><img src='"+baseUrl+"/cw/images/puptips.png' /></div>", allImgArr = [], menuArr = [], itemnum = 0;
 
 
 var callback = function(contents, status){
 	//console.log(contents)
 	categoryHtml = $.map(contents,function(v,k){
-		//console.log(v);
-		
+		itemnum ++;
 		categorylistHtmls = $.map(v,function(j,l){
 			allImgArr.push(j.url);
 			return '<div class="slide"><img src="'+j.url+'" style="width:109%" /></div>';
 		}).join("");
 
-		menuArr.push(k);
+		menuArr.push(itemnum);
 		contentHtmls += '<div class="section">'+categorylistHtmls+'</div>'
-		return '<li data-menuanchor="'+k+'"><a href="#'+k+'">'+k+'</a></li>';
+		return '<li data-menuanchor="item'+itemnum+'"><a href="#'+itemnum+'">'+k+'</a></li>';
 	}).join("");
 
 	//console.log(contentHtmls);
