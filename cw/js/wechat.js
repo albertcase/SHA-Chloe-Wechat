@@ -1,7 +1,7 @@
 var shareData = {
     "title": "Chloé 2016 春夏时装秀",
-    "link": baseUrl,
-    "imgUrl": baseUrl + "/cw/images/share.jpg",
+    "link": window.location.href.slice(0,window.location.href.indexOf('#')),
+    "imgUrl": window.location.href.slice(0,window.location.href.indexOf('#')) + "cw/images/share.jpg",
     "desc": "Chloé 2016 春夏巴黎时装周，发现秀场精彩"
 }
 
