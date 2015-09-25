@@ -21,7 +21,6 @@ var callback = function(contents, status){
 	//console.log(contentHtmls);
 	$("#menu ul").html(categoryHtml);
 	$("#fullpage").html(contentHtmls);
-
 	accfun();
 	$("#pupTips").click(function(){
 		$(this).fadeOut();
@@ -65,6 +64,7 @@ document.addEventListener('touchmove' , function (ev){
 	ev.preventDefault();
 	return false;
 } , false)
+
 
 
 
@@ -144,6 +144,7 @@ function accfun(){
 
 	if(!window.location.hash){
 		LoadFn(allImgArr , function (){
+
 			setTimeout( function (){
 
 				TweenMax.staggerFromTo("#loading",1,{
