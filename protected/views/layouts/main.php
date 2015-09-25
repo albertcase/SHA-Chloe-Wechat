@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Chloé 2016 秋冬时装秀</title>
+<title>Chloé 2016 春夏时装秀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="format-detection" content="telephone=no">
 <!--禁用手机号码链接(for iPhone)-->
