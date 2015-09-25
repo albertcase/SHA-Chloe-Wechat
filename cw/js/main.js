@@ -36,6 +36,23 @@ var callback = function(contents, status){
 $.post( baseUrl+'/api/list', callback, "json");
 
 
+function getAttention(){
+	$.ajax({
+	    type: "POST",
+	    url: "/api/status",
+	    dataType:"json"
+    }).done(function(data){
+		if(data.code == 0){
+
+		}else{
+			$(".qrcode").hide();
+		}
+    });
+}
+
+
+getAttention();
+
 
 window.location.hash = '';
 
