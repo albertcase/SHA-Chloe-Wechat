@@ -302,4 +302,12 @@ $(".slogan a").click(function(){
 	homeAnimate_out();
 })
 
+$(".qrcode img").click(function(){
+	return false;
+})
+
+$(".qrcode").click(function(){
+	$(this).fadeOut();
+})
+
 
