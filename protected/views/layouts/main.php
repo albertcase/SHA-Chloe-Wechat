@@ -14,11 +14,11 @@
 <meta name="Description" content="...">
 
 
-<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/cw/css/main.css" />
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jweixin.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/tweenMax.min.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/PxLoader.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/jquery.fullPage.js"></script>
@@ -36,6 +36,7 @@
 <?php echo $content; ?>
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/main.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/cw/js/wechat.js"></script>
 
 </body>
 </html>
