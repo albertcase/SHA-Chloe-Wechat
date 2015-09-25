@@ -149,11 +149,13 @@ function accfun(){
 				TweenMax.staggerFromTo("#loading",1,{
 					scale:1,
 					y:0,
+					x:0,
 					autoAlpha:1,
 					opacity:1
 				},{
 					scale:1,
 					y:0,
+					x:0,
 					autoAlpha:0,
 					opacity:0,
 					easing: 'easeInOutCubic',
