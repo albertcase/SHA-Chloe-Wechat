@@ -1,5 +1,4 @@
 
-
 var categoryHtml = "",categorylistHtmls = "", contentHtmls = "<div id='pupTips'><img src='"+baseUrl+"/cw/images/puptips.png' /></div>", allImgArr = [], menuArr = [];
 
 
@@ -314,12 +313,21 @@ $(".slogan a").click(function(){
 	homeAnimate_out();
 })
 
-$(".qrcode img").click(function(){
+$(".qrcodeImg").bind("touchstart", function (event) {
+	event.stopPropagation();
 	return false;
-})
+});
 
-$(".qrcode").click(function(){
-	$(this).hide();
-})
+
+$(".qrcode, .close").bind("touchstart", function (event) {
+ 	$(".qrcode").hide();
+ 	event.stopPropagation();
+	return false;
+});
+
+
+
+
+
 
 

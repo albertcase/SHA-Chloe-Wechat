@@ -515,9 +515,18 @@ p{
 	display: inline-block;
 }
 
+.close{
+	width: 10%;
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	text-align: center;
+	z-index: 16;
+}
 
-
-
+.close img{
+	width: 80%;
+}
 
 
 

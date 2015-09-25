@@ -8,7 +8,10 @@
 
 <div class="homepage">
 	<div class="qrcode">
-		<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/qrcode.png" />
+		<a href="javascript:;" class="close">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/close.png" />
+		</a>
+		<img src="<?php echo Yii::app()->request->baseUrl; ?>/cw/images/qrcode.png" class="qrcodeImg" />
 	</div>
 
 	<div href="javascript:;" class="logo">
