@@ -354,6 +354,17 @@ class Weixin{
 		return json_encode(array("appid" => $this->_appid,"time" => $time, "noncestr" => $noncestr, "sign" => $sign, "url" => $url));	
 	}
 
+	public function issubscribed($openid, $lang = 'zh_CN'){
+		$access_token = $this->getAccessToken();
+		$http_data = array();
+	    $http_data['access_token'] = $access_token;
+	    $http_data['openid'] = $openid;
+	 	$http_data['lang'] = $lang;
+		$result = file_get_contents('https://api.weixin.qq.com/cgi-bin/user/info?' . http_build_query($http_data));
+		$result = json_decode($result, true);
+		return $result['subscribe'];
+	}
+
 	public function createMenu($data)
 	{
 		$access_token = $this->getAccessToken();
