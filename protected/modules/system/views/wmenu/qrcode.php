@@ -29,7 +29,7 @@
 								}
 						}'>场景值</th>
 
-			<th data-options='field:"ticket",width:600,formatter:function(value,row){
+			<th data-options='field:"ticket",width:400,formatter:function(value,row){
 								if(!value){
 									return "无";
 								}else{
@@ -41,6 +41,14 @@
 									return "<img src=\"https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket="+row.ticket+"\" width=\"100px\">";
 								else
 									return "暂无图片";
+						}'>二维码</th>
+
+			<th data-options='field:"num",width:100,formatter:function(value,row){
+								if(!value){
+									return 0;
+								}else{
+									return value;
+								}
 						}'>二维码</th>
 			
 			
