@@ -469,6 +469,14 @@ class Weixin{
 		
 	}
 
+	public function getOauth3()
+	{
+		$callback=Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/weixin/callback3';
+		$rs = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->_appid.'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
+		return $rs;
+		
+	}
+
 	public function getOauthAccessToken($code){
 		$rs = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token?code='.$code.'&grant_type=authorization_code&appid='.$this->_appid.'&secret='.$this->_secret);
 		$rs = json_decode($rs,true);
