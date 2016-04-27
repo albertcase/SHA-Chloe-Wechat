@@ -380,7 +380,7 @@ class Wmenu{
 		$sqlCount = "SELECT count(id) AS num FROM same_qrcode WHERE $where";
 		$count = $this->_db->createCommand($sqlCount)->select()->queryScalar();
 
-		$sql = "SELECT same_qrcode.*,a.num from same_qrcode left join (select count(*) as num,ticket from scenelog group by ticket) as a on same_qrcode.ticket = a.ticket ORDER BY id DESC  limit $offset,$rows";
+		$sql = "SELECT same_qrcode.*,a.num,b.num2 from same_qrcode left join (select count(*) as num,ticket from scenelog group by ticket) as a on same_qrcode.ticket = a.ticket left join (select count(*) as num2,ticket from scenelog where type = 1 group by ticket) as b on same_qrcode.ticket = b.ticket ORDER BY id DESC  limit $offset,$rows";
 		$command = $this->_db->createCommand($sql);		
 		$menuAll = $command->select()->queryAll();
 		$menuAll = array("total"=>$count,"rows"=>$menuAll);
