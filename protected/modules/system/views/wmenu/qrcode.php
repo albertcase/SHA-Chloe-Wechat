@@ -49,8 +49,14 @@
 								}else{
 									return value;
 								}
-						}'>二维码</th>
-			
+						}'>扫描次数</th>
+			<th data-options='field:"num2",width:100,formatter:function(value,row){
+								if(!value){
+									return 0;
+								}else{
+									return value;
+								}
+						}'>关注次数</th>
 			
 		</tr>
 	</thead>
