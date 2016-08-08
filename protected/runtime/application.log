@@ -9496,3 +9496,2028 @@ Stack trace:
 REQUEST_URI=/api/jssdk
 HTTP_REFERER=http://192.168.8.100:9027/
 ---
+2016/08/08 10:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://127.0.0.1:9027/system/login
+---
+2016/08/08 11:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/UKRAINE/cover/33.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/UK...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/UKRAINE/cover/33.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/31.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/31.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/31.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/31.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/TURKEY/map/32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/TURK...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/TURKEY/map/32.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/TURKEY/cover/32.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/TU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/TURKEY/cover/32.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/UKRAINE/map/33.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/UKRA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/UKRAINE/map/33.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/30.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/30.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/29.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/29.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/28.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/28.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HOLLAND/map/27.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HOLL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HOLLAND/map/27.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/25.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/25.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/24.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/24.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/23.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/23.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/22.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/22.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/21.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/21.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/DENMARK/map/20.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/DENM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/DENMARK/map/20.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/ITALY/map/18.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/ITAL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/ITALY/map/18.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/ITALY/map/17.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/ITAL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/ITALY/map/17.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/16.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/16.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/15.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/15.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/14.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/14.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/14.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/14.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/13.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/13.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/13.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/13.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/12.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/12.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/12.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/12.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/11.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/11.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/11.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/11.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/10.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/10.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/10.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/10.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/8.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/8.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/8.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/8.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/9.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/9.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/9.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/9.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/7.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/7.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/7.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/7.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/6.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/6.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/6.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/6.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/5.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/5.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/4.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/4.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/5.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/5.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/4.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/4.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/3.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/3.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/3.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/3.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/2.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/2.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/2.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/2.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/1.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/1.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/1.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SHORT HILLS/cover/26.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SHORT%20HILLS/cover/26.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SEATTLE/cover/25.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SEATTLE/cover/25.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SHORT HILLS/map/26.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SHOR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SHORT%20HILLS/map/26.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SEATTLE/map/25.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SEAT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SEATTLE/map/25.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SEATTLE/cover/24.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SEATTLE/cover/24.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SEATTLE/map/24.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SEAT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SEATTLE/map/24.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SAN FRANCISCO/cover/23.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SAN%20FRANCISCO/cover/23.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SAN FRANCISCO/map/23.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SAN ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SAN%20FRANCISCO/map/23.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SAN FRANCISCO/cover/22.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SAN%20FRANCISCO/cover/22.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SAN FRANCISCO/map/22.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SAN ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SAN%20FRANCISCO/map/22.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HOUSTON/cover/21.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HOUSTON/cover/21.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/21.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/21.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HONOLULU/cover/20.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HONOLULU/cover/20.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/20.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/20.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HONOLULU/cover/19.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HONOLULU/cover/19.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/19.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/19.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/DALLAS/cover/18.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/DA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/DALLAS/cover/18.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/DALLAS/map/18.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/DALL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/DALLAS/map/18.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/CHICAGO/cover/17.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/CHICAGO/cover/17.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/CHICAGO/map/17.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/CHIC...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/CHICAGO/map/17.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/CHICAGO/map/16.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/CHIC...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/CHICAGO/map/16.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/CHICAGO/cover/16.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/CHICAGO/cover/16.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BOSTON/cover/15.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BOSTON/cover/15.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/COSTA MESA/cover/14.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/COSTA%20MESA/cover/14.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BOSTON/map/15.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BOST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BOSTON/map/15.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/COSTA MESA/cover/13.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/COSTA%20MESA/cover/13.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/COSTA MESA/map/14.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/COST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/COSTA%20MESA/map/14.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/COSTA MESA/map/13.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/COST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/COSTA%20MESA/map/13.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/12.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/12.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/12.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/12.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/11.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/11.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/11.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/11.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/10.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/10.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/10.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/10.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/29.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/29.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/DENMARK/cover/20.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/DE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/DENMARK/cover/20.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/16.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/16.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/23.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/23.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/ITALY/cover/18.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/IT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/ITALY/cover/18.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/15.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/15.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/22.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/22.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HOLLAND/cover/27.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HOLLAND/cover/27.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/28.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/28.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/ITALY/cover/17.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/IT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/ITALY/cover/17.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/AZERBAIJAN/cover/19.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/AZ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/AZERBAIJAN/cover/19.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/24.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/24.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/21.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/21.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/25.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/25.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/KAZAKHSTAN/cover/26.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/KA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/KAZAKHSTAN/cover/26.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/30.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/30.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:31:26 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:31:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:37:37 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:37:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:38:59 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:38:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:04 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:39:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:05 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:39:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:06 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:39:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/UKRAINE/cover/33.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/UK...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/UKRAINE/cover/33.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/UKRAINE/map/33.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/UKRA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/UKRAINE/map/33.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/TURKEY/cover/32.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/TU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/TURKEY/cover/32.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/TURKEY/map/32.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/TURK...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/TURKEY/map/32.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/31.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/31.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/31.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/31.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/30.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/30.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/29.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/29.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/16.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/16.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/23.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/23.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/22.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/22.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HOLLAND/cover/27.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HOLLAND/cover/27.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/RUSSIAN/cover/28.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/RU...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/RUSSIAN/cover/28.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/ITALY/cover/17.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/IT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/ITALY/cover/17.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/ITALY/cover/18.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/IT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/ITALY/cover/18.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/KAZAKHSTAN/cover/26.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/KA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/KAZAKHSTAN/cover/26.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/DENMARK/cover/20.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/DE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/DENMARK/cover/20.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/15.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/15.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/24.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/24.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/AZERBAIJAN/cover/19.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/AZ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/AZERBAIJAN/cover/19.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/21.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/21.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/GERMAN/cover/25.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/GE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/GERMAN/cover/25.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/30.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/30.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/29.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/29.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/RUSSIAN/map/28.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/RUSS...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/RUSSIAN/map/28.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HOLLAND/map/27.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HOLL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HOLLAND/map/27.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/25.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/25.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/24.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/24.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/23.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/23.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/22.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/22.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/GERMAN/map/21.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/GERM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/GERMAN/map/21.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/DENMARK/map/20.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/DENM...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/DENMARK/map/20.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/ITALY/map/18.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/ITAL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/ITALY/map/18.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/16.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/16.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/ITALY/map/17.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/ITAL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/ITALY/map/17.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/14.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/14.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/15.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/15.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/14.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/14.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/13.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/13.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/13.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/13.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BRITAIN/cover/12.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BRITAIN/cover/12.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BRITAIN/map/12.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BRIT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BRITAIN/map/12.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/11.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/11.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/10.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/10.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/11.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/11.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/10.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/10.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/9.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/9.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/9.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/9.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/8.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/8.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/8.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/8.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/7.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/7.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/7.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/7.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/6.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/6.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/6.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/6.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/5.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/5.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/4.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/4.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/5.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/5.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/4.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/4.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/3.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/3.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/3.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/3.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/2.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/2.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/2.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/2.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/FRANCE/cover/1.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/FR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/FRANCE/cover/1.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/FRANCE/map/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/FRAN...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/FRANCE/map/1.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SHORT HILLS/cover/26.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SHORT%20HILLS/cover/26.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SHORT HILLS/map/26.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SHOR...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SHORT%20HILLS/map/26.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SEATTLE/cover/25.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SEATTLE/cover/25.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SEATTLE/map/25.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SEAT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SEATTLE/map/25.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SEATTLE/cover/24.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SEATTLE/cover/24.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SEATTLE/map/24.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SEAT...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SEATTLE/map/24.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SAN FRANCISCO/cover/23.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SAN%20FRANCISCO/cover/23.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SAN FRANCISCO/map/23.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SAN ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SAN%20FRANCISCO/map/23.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/SAN FRANCISCO/cover/22.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/SA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/SAN%20FRANCISCO/cover/22.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/SAN FRANCISCO/map/22.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/SAN ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/SAN%20FRANCISCO/map/22.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HOUSTON/cover/21.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HOUSTON/cover/21.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/21.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/21.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HONOLULU/cover/20.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HONOLULU/cover/20.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/20.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/20.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/HONOLULU/cover/19.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/HO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/HONOLULU/cover/19.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/HONOLULU/map/19.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/HONO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/HONOLULU/map/19.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/DALLAS/cover/18.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/DA...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/DALLAS/cover/18.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/CHICAGO/cover/17.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/CHICAGO/cover/17.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/DALLAS/map/18.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/DALL...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/DALLAS/map/18.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/CHICAGO/map/17.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/CHIC...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/CHICAGO/map/17.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/CHICAGO/cover/16.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CH...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/CHICAGO/cover/16.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/CHICAGO/map/16.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/CHIC...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/CHICAGO/map/16.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/BOSTON/cover/15.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/BO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/BOSTON/cover/15.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/BOSTON/map/15.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/BOST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/BOSTON/map/15.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/COSTA MESA/cover/14.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/COSTA%20MESA/cover/14.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/COSTA MESA/map/14.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/COST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/COSTA%20MESA/map/14.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/COSTA MESA/map/13.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/COST...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/COSTA%20MESA/map/13.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/COSTA MESA/cover/13.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/CO...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/COSTA%20MESA/cover/13.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/12.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/12.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/12.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/12.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/11.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/11.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/11.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/11.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/store/NEW YORK/cover/10.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/store/NE...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/store/NEW%20YORK/cover/10.png
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/map/NEW YORK/map/10.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/map/NEW ...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/map/NEW%20YORK/map/10.jpg
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:09 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:39:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 11:39:16 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1.
+in /vagrant/protected/modules/system/models/Franchise.php (484)
+in /vagrant/protected/modules/system/controllers/FranchiseController.php (259)
+in /vagrant/index.php (19)
+2016/08/08 11:39:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chloe_wechat.trio_franchise_preferential' doesn't exist. The SQL statement executed was: SELECT count(id) AS num FROM trio_franchise_preferential B WHERE 1' in /vagrant/protected/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /vagrant/protected/modules/system/models/Franchise.php(484): CDbCommand->queryScalar()
+#2 /vagrant/protected/modules/system/controllers/FranchiseController.php(259): Franchise->preferentialList(Array)
+#3 /vagrant/protected/framework/web/actions/CInlineAction.php(49): FranchiseController->actionPreferentialList()
+#4 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('preferentialLis...')
+#8 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('system/franchis...')
+#9 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /vagrant/index.php(19): CApplication->run()
+#11 {main}
+REQUEST_URI=/system/franchise/preferentialList
+HTTP_REFERER=http://127.0.0.1:9027/system
+---
+2016/08/08 14:01:53 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636113859
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
+2016/08/08 14:02:20 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636140016
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
+2016/08/08 14:02:20 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636140020
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
+2016/08/08 14:02:23 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636143913
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
+2016/08/08 14:02:23 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636143917
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
+2016/08/08 14:03:31 [error] [php] file_get_contents(upload/time.txt): failed to open stream: No such file or directory (/vagrant/protected/models/Weixin.php:290)
+Stack trace:
+#0 /vagrant/protected/framework/web/actions/CInlineAction.php(49): TempController->actionIndex()
+#1 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /vagrant/protected/framework/web/CController.php(286): TempController->runAction()
+#3 /vagrant/protected/framework/web/CController.php(265): TempController->runActionWithFilters()
+#4 /vagrant/protected/framework/web/CWebApplication.php(282): TempController->run()
+#5 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/system/temp/index?_=1470636211858
+in /vagrant/protected/models/Weixin.php (290)
+in /vagrant/protected/modules/system/controllers/TempController.php (7)
+in /vagrant/index.php (19)
