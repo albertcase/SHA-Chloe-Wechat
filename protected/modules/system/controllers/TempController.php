@@ -8,7 +8,7 @@ class TempController extends SystemController
 		$url = 'https://api.weixin.qq.com/cgi-bin/material/get_materialcount?access_token=' . $access_token;
 		$data = file_get_contents($url);
 		$data = json_decode($data, true);
-		$news_count = $data['news_count'];exit;
+		echo $news_count = $data['news_count'];exit;
 		$url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token=' . $access_token;
 		$post_data = array('type' => 'news', 'offset' => '0', 'count'=>'20');	
 		$ch=curl_init();
